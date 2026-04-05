@@ -1,0 +1,3684 @@
+1
+00:00:10,530 --> 00:00:14,070
+okay folks welcome back this teaching is
+
+2
+00:00:12,960 --> 00:00:22,380
+going to be specifically dealing with
+
+3
+00:00:14,070 --> 00:00:25,619
+implementing the Asian range alright
+
+4
+00:00:22,380 --> 00:00:28,890
+the Asian range notice it does not say
+
+5
+00:00:25,619 --> 00:00:32,160
+ICT Asian range I did not create this or
+
+6
+00:00:28,890 --> 00:00:33,840
+author this concept my first
+
+7
+00:00:32,160 --> 00:00:36,090
+introduction to it was from another
+
+8
+00:00:33,840 --> 00:00:38,309
+trader which I'll mention later on in
+
+9
+00:00:36,090 --> 00:00:40,730
+the presentation but what ICT concepts
+
+10
+00:00:38,309 --> 00:00:42,719
+are going to be used in this module
+
+11
+00:00:40,730 --> 00:00:46,410
+we're gonna be introducing the Asian
+
+12
+00:00:42,719 --> 00:00:50,190
+range I'm going to be defining what the
+
+13
+00:00:46,410 --> 00:00:52,050
+Asian range is in charts and I want to
+
+14
+00:00:50,190 --> 00:00:55,170
+teach you how to utilize it in bullish
+
+15
+00:00:52,050 --> 00:00:59,879
+conditions and how to utilize it in
+
+16
+00:00:55,170 --> 00:01:03,329
+bearish conditions all right introducing
+
+17
+00:00:59,879 --> 00:01:05,940
+the Asian range now what is the Asian
+
+18
+00:01:03,329 --> 00:01:09,240
+range well the price action prior to the
+
+19
+00:01:05,940 --> 00:01:10,770
+Frankfurt open or London opening can be
+
+20
+00:01:09,240 --> 00:01:12,930
+very indicative of the future intraday
+
+21
+00:01:10,770 --> 00:01:15,119
+price movement now when we have a
+
+22
+00:01:12,930 --> 00:01:17,700
+directional bias you can use this Asian
+
+23
+00:01:15,119 --> 00:01:19,650
+range to build or frame a context or
+
+24
+00:01:17,700 --> 00:01:22,950
+story line to the markets likely
+
+25
+00:01:19,650 --> 00:01:25,049
+intentions there is a stillness in price
+
+26
+00:01:22,950 --> 00:01:29,040
+many times right before the intraday
+
+27
+00:01:25,049 --> 00:01:30,810
+directional impulse price swing you look
+
+28
+00:01:29,040 --> 00:01:33,840
+at the chart here on the right this is
+
+29
+00:01:30,810 --> 00:01:36,990
+an Aussie dollar chart you can see that
+
+30
+00:01:33,840 --> 00:01:41,070
+there is a little shaded area right in
+
+31
+00:01:36,990 --> 00:01:44,850
+here and it's delineate 'add with the
+
+32
+00:01:41,070 --> 00:01:48,750
+gray shaded box and I've labeled it not
+
+33
+00:01:44,850 --> 00:01:51,750
+surprisingly the Asian range so this
+
+34
+00:01:48,750 --> 00:01:54,119
+little piece of price action okay I
+
+35
+00:01:51,750 --> 00:01:58,259
+actually learned about this from Chris
+
+36
+00:01:54,119 --> 00:02:00,149
+Laurie and I'll show you what I was
+
+37
+00:01:58,259 --> 00:02:02,850
+doing before I learned this so that way
+
+38
+00:02:00,149 --> 00:02:05,130
+you can see I already had a beat on what
+
+39
+00:02:02,850 --> 00:02:07,170
+price should be doing but when I first
+
+40
+00:02:05,130 --> 00:02:11,190
+saw him refer to it in his free
+
+41
+00:02:07,170 --> 00:02:14,100
+teachings he has a website Chris Laurie
+
+42
+00:02:11,190 --> 00:02:16,709
+comm it's changed and morphed a little
+
+43
+00:02:14,100 --> 00:02:18,959
+bit over time but folks that have gone
+
+44
+00:02:16,709 --> 00:02:21,690
+through his material didn't know who I'm
+
+45
+00:02:18,959 --> 00:02:23,640
+referring to they would not an agreement
+
+46
+00:02:21,690 --> 00:02:24,250
+that they would know what I'm saying is
+
+47
+00:02:23,640 --> 00:02:26,830
+true
+
+48
+00:02:24,250 --> 00:02:29,500
+he taught about the Asian range many
+
+49
+00:02:26,830 --> 00:02:30,910
+times in free teachings so it's not like
+
+50
+00:02:29,500 --> 00:02:33,760
+I'm taking anything away from him
+
+51
+00:02:30,910 --> 00:02:36,910
+in fact if you're not happy with what
+
+52
+00:02:33,760 --> 00:02:38,380
+you see in my content but you do want to
+
+53
+00:02:36,910 --> 00:02:39,760
+take some advice from someone that has
+
+54
+00:02:38,380 --> 00:02:42,250
+seen a lot of things out there
+
+55
+00:02:39,760 --> 00:02:46,900
+Chris Laurie has a lot of good price
+
+56
+00:02:42,250 --> 00:02:49,510
+action study and his methods while they
+
+57
+00:02:46,900 --> 00:02:52,150
+are not mine there's some similarities
+
+58
+00:02:49,510 --> 00:02:53,709
+to what Chris does but I'm going to show
+
+59
+00:02:52,150 --> 00:02:54,640
+you what I took away from him this is
+
+60
+00:02:53,709 --> 00:02:57,250
+the only thing I really learned from
+
+61
+00:02:54,640 --> 00:02:59,260
+Chris Laurie really but yeah that's not
+
+62
+00:02:57,250 --> 00:03:00,640
+to diminish his importance as a teacher
+
+63
+00:02:59,260 --> 00:03:03,010
+or what he knows I'm just saying that
+
+64
+00:03:00,640 --> 00:03:04,840
+this is what I gleaned from his material
+
+65
+00:03:03,010 --> 00:03:07,780
+I liked it because I was already
+
+66
+00:03:04,840 --> 00:03:11,110
+familiar with using consolidations in
+
+67
+00:03:07,780 --> 00:03:13,270
+certain periods of a training 24-hour
+
+68
+00:03:11,110 --> 00:03:15,430
+period if you take certain ranges you
+
+69
+00:03:13,270 --> 00:03:17,110
+can do some magical things with them and
+
+70
+00:03:15,430 --> 00:03:19,239
+I teach you that in the mentorship and
+
+71
+00:03:17,110 --> 00:03:21,580
+it goes well beyond what I've done in
+
+72
+00:03:19,239 --> 00:03:21,970
+YouTube videos over the past couple of
+
+73
+00:03:21,580 --> 00:03:26,290
+years
+
+74
+00:03:21,970 --> 00:03:29,290
+so what I liked about it was I've seen a
+
+75
+00:03:26,290 --> 00:03:31,510
+lot of context right away when I seen
+
+76
+00:03:29,290 --> 00:03:34,930
+how that the range is applied to the
+
+77
+00:03:31,510 --> 00:03:37,900
+chart so I will give you what I used to
+
+78
+00:03:34,930 --> 00:03:38,830
+do and how I used entry techniques to do
+
+79
+00:03:37,900 --> 00:03:40,959
+it so that way you have a little bit of
+
+80
+00:03:38,830 --> 00:03:42,549
+a takeaway you not only just talked
+
+81
+00:03:40,959 --> 00:03:44,920
+about the range itself but what we can
+
+82
+00:03:42,549 --> 00:03:47,980
+do with it and then I'll show you what
+
+83
+00:03:44,920 --> 00:03:49,330
+I've done with it to incorporate it now
+
+84
+00:03:47,980 --> 00:03:52,269
+I'm not teaching you everything I know
+
+85
+00:03:49,330 --> 00:03:56,410
+about this range and what I've done with
+
+86
+00:03:52,269 --> 00:04:01,060
+it over the last mmm ten years or so the
+
+87
+00:03:56,410 --> 00:04:05,079
+the implementation of it I think is
+
+88
+00:04:01,060 --> 00:04:07,360
+useful for a developing trader but there
+
+89
+00:04:05,079 --> 00:04:09,040
+has to be some context behind it the
+
+90
+00:04:07,360 --> 00:04:11,140
+range itself doesn't produce anything
+
+91
+00:04:09,040 --> 00:04:13,239
+magical but if you have a storyline
+
+92
+00:04:11,140 --> 00:04:16,380
+behind what price should be doing that
+
+93
+00:04:13,239 --> 00:04:22,180
+particular day it is unbelievably
+
+94
+00:04:16,380 --> 00:04:24,370
+helpful okay so let's define the Asian
+
+95
+00:04:22,180 --> 00:04:25,960
+range of work what is it that we can do
+
+96
+00:04:24,370 --> 00:04:29,169
+in our charts to make it up here and
+
+97
+00:04:25,960 --> 00:04:32,590
+draw attention to it well the range
+
+98
+00:04:29,169 --> 00:04:37,020
+begins at 7:00 p.m. New York time and it
+
+99
+00:04:32,590 --> 00:04:40,410
+ends at midnight New York time now
+
+100
+00:04:37,020 --> 00:04:43,289
+a special inclusion here Chris Laurie
+
+101
+00:04:40,410 --> 00:04:45,900
+had his Asian Range pushed beyond
+
+102
+00:04:43,289 --> 00:04:49,699
+midnight if my if memory serves me
+
+103
+00:04:45,900 --> 00:04:53,669
+correct I believe he had 12:30 a.m. and
+
+104
+00:04:49,699 --> 00:04:55,620
+to me the financial markets really begin
+
+105
+00:04:53,669 --> 00:04:57,870
+at midnight New York time and it
+
+106
+00:04:55,620 --> 00:05:01,710
+probably sounds pretty arrogant of a
+
+107
+00:04:57,870 --> 00:05:03,240
+gang like me being in the States but if
+
+108
+00:05:01,710 --> 00:05:04,620
+you just study what I'm teaching you
+
+109
+00:05:03,240 --> 00:05:06,810
+folks you'll see right away what I'm
+
+110
+00:05:04,620 --> 00:05:08,879
+telling you is the gospel as it relates
+
+111
+00:05:06,810 --> 00:05:10,050
+to intraday price actions only now
+
+112
+00:05:08,879 --> 00:05:11,370
+everything else might be something
+
+113
+00:05:10,050 --> 00:05:12,840
+different but as far as intraday price
+
+114
+00:05:11,370 --> 00:05:15,930
+action I think I've cornered the market
+
+115
+00:05:12,840 --> 00:05:18,840
+in intraday price action so the height
+
+116
+00:05:15,930 --> 00:05:20,669
+of the range is the highest high between
+
+117
+00:05:18,840 --> 00:05:23,759
+7:00 p.m. to midnight in New York time
+
+118
+00:05:20,669 --> 00:05:27,599
+to the lowest low between 7:00 p.m. and
+
+119
+00:05:23,759 --> 00:05:29,520
+midnight New York time the width of the
+
+120
+00:05:27,599 --> 00:05:32,460
+range is obviously the duration of 7:00
+
+121
+00:05:29,520 --> 00:05:33,750
+p.m. to midnight New York time so let's
+
+122
+00:05:32,460 --> 00:05:37,310
+take a look at this chart here and we'll
+
+123
+00:05:33,750 --> 00:05:37,310
+get a little bit closer zoom in on it
+
+124
+00:05:38,090 --> 00:05:44,370
+okay I'll cover some points here now
+
+125
+00:05:41,340 --> 00:05:45,780
+right away when you see this it probably
+
+126
+00:05:44,370 --> 00:05:48,180
+still doesn't give you any kind of
+
+127
+00:05:45,780 --> 00:05:50,280
+insight and that's fine but I'm gonna
+
+128
+00:05:48,180 --> 00:05:53,580
+build on it and show you how useful it
+
+129
+00:05:50,280 --> 00:05:57,210
+is but we're gonna build the model with
+
+130
+00:05:53,580 --> 00:06:00,029
+specific buy and sell conditions later
+
+131
+00:05:57,210 --> 00:06:01,889
+on in this video but for now take a look
+
+132
+00:06:00,029 --> 00:06:05,219
+at what you see here okay and kind of
+
+133
+00:06:01,889 --> 00:06:08,669
+like Burness in your mind your focus
+
+134
+00:06:05,219 --> 00:06:11,039
+should every single day be zeroed in on
+
+135
+00:06:08,669 --> 00:06:13,740
+7:00 p.m. New York and whatever that
+
+136
+00:06:11,039 --> 00:06:15,750
+time is on your broker's platform
+
+137
+00:06:13,740 --> 00:06:18,750
+whatever your charting platform or
+
+138
+00:06:15,750 --> 00:06:21,120
+package shows find out what time it is
+
+139
+00:06:18,750 --> 00:06:23,729
+at 7:00 p.m. New York time and then find
+
+140
+00:06:21,120 --> 00:06:25,259
+that same time on your charts that's
+
+141
+00:06:23,729 --> 00:06:27,979
+where you put a vertical line at and
+
+142
+00:06:25,259 --> 00:06:30,270
+that begins the asian session and then
+
+143
+00:06:27,979 --> 00:06:31,979
+five hours later it'll be midnight in
+
+144
+00:06:30,270 --> 00:06:33,990
+New York time put another vertical line
+
+145
+00:06:31,979 --> 00:06:36,990
+in and there's your Asian range defined
+
+146
+00:06:33,990 --> 00:06:39,990
+by the duration the highest high and the
+
+147
+00:06:36,990 --> 00:06:43,949
+lowest low is what we would use to frame
+
+148
+00:06:39,990 --> 00:06:46,380
+out the range now there's a lot of
+
+149
+00:06:43,949 --> 00:06:48,210
+Voodoo that you can do with this range
+
+150
+00:06:46,380 --> 00:06:50,430
+okay and again I'm not teaching it here
+
+151
+00:06:48,210 --> 00:06:50,910
+but believe me it can take you to the
+
+152
+00:06:50,430 --> 00:06:54,180
+highest
+
+153
+00:06:50,910 --> 00:06:55,440
+in the lowest pit of the day there's
+
+154
+00:06:54,180 --> 00:06:56,730
+some things you have to incorporate in
+
+155
+00:06:55,440 --> 00:06:58,800
+that and I teach that in the mentorship
+
+156
+00:06:56,730 --> 00:07:00,600
+but for now let's teach you a very
+
+157
+00:06:58,800 --> 00:07:03,210
+simple approach to how to use this and
+
+158
+00:07:00,600 --> 00:07:06,360
+when you can filter out trades and not
+
+159
+00:07:03,210 --> 00:07:10,140
+do anything that may end up taking a
+
+160
+00:07:06,360 --> 00:07:13,530
+loss if you do otherwise so let's take a
+
+161
+00:07:10,140 --> 00:07:15,510
+closer look and remove all of the
+
+162
+00:07:13,530 --> 00:07:16,980
+benefit of seeing the price action there
+
+163
+00:07:15,510 --> 00:07:18,870
+okay now we do have the benefit of
+
+164
+00:07:16,980 --> 00:07:21,060
+hindsight but nonetheless I want to kind
+
+165
+00:07:18,870 --> 00:07:23,130
+of build an understanding about what
+
+166
+00:07:21,060 --> 00:07:24,810
+this range does or at least my
+
+167
+00:07:23,130 --> 00:07:26,400
+interpretation of it now I was able to
+
+168
+00:07:24,810 --> 00:07:31,070
+see right away the importance of
+
+169
+00:07:26,400 --> 00:07:31,070
+utilizing it in my view on price action
+
+170
+00:07:31,160 --> 00:07:35,880
+during this range what's actually
+
+171
+00:07:33,900 --> 00:07:38,180
+happening is there's orders that are
+
+172
+00:07:35,880 --> 00:07:41,430
+coming in and they're stacking up above
+
+173
+00:07:38,180 --> 00:07:44,520
+the market and below the market relative
+
+174
+00:07:41,430 --> 00:07:47,430
+to that range and it's also building up
+
+175
+00:07:44,520 --> 00:07:52,080
+a market sentiment now this compression
+
+176
+00:07:47,430 --> 00:07:53,760
+of market participation starts to build
+
+177
+00:07:52,080 --> 00:07:56,970
+up closer and closer and closer until we
+
+178
+00:07:53,760 --> 00:07:59,400
+get to midnight in New York soon as we
+
+179
+00:07:56,970 --> 00:08:03,440
+cross over midnight time in New York we
+
+180
+00:07:59,400 --> 00:08:08,190
+are in fertile ground for price movement
+
+181
+00:08:03,440 --> 00:08:10,380
+we're going to assume that everyone in
+
+182
+00:08:08,190 --> 00:08:14,160
+this listening audience is familiar with
+
+183
+00:08:10,380 --> 00:08:17,730
+channels ok or trading ranges the idea
+
+184
+00:08:14,160 --> 00:08:21,900
+is above this range there's going to be
+
+185
+00:08:17,730 --> 00:08:24,750
+buy orders those buy odors are going to
+
+186
+00:08:21,900 --> 00:08:27,690
+act as breakout artists ok in other
+
+187
+00:08:24,750 --> 00:08:32,039
+words they are not astute to know how to
+
+188
+00:08:27,690 --> 00:08:34,169
+buy when it's a low price or technically
+
+189
+00:08:32,039 --> 00:08:36,120
+oversold without the use of indicators
+
+190
+00:08:34,169 --> 00:08:37,260
+so they just want to be buying on
+
+191
+00:08:36,120 --> 00:08:39,120
+strength and there's really nothing
+
+192
+00:08:37,260 --> 00:08:41,820
+inherently wrong about that if you know
+
+193
+00:08:39,120 --> 00:08:43,110
+what you're looking for but most traders
+
+194
+00:08:41,820 --> 00:08:44,880
+don't know what you're looking for and
+
+195
+00:08:43,110 --> 00:08:47,010
+they just go in any willy nilly and
+
+196
+00:08:44,880 --> 00:08:48,480
+entry based on breaking out above a know
+
+197
+00:08:47,010 --> 00:08:50,310
+high they'll buy that and view that as
+
+198
+00:08:48,480 --> 00:08:52,970
+strengths and I'll put the stop-loss
+
+199
+00:08:50,310 --> 00:08:56,580
+right below the low which would be here
+
+200
+00:08:52,970 --> 00:08:58,530
+short sellers would do the opposite they
+
+201
+00:08:56,580 --> 00:09:01,680
+would have their sell orders below this
+
+202
+00:08:58,530 --> 00:09:03,180
+range so any movement lower would
+
+203
+00:09:01,680 --> 00:09:04,710
+hopefully put them in a short position
+
+204
+00:09:03,180 --> 00:09:06,150
+and they would take the other
+
+205
+00:09:04,710 --> 00:09:08,940
+end of that range and put their
+
+206
+00:09:06,150 --> 00:09:10,410
+protective by stop so buyers that want
+
+207
+00:09:08,940 --> 00:09:14,160
+to break out above this consolidation
+
+208
+00:09:10,410 --> 00:09:17,370
+are going to buy want to stop with a
+
+209
+00:09:14,160 --> 00:09:20,860
+protective cell stop below the low
+
+210
+00:09:17,370 --> 00:09:23,399
+short sellers want to sell on a stop and
+
+211
+00:09:20,860 --> 00:09:26,920
+use a protective buy stop above the high
+
+212
+00:09:23,399 --> 00:09:30,190
+okay so the storyline is what are we
+
+213
+00:09:26,920 --> 00:09:31,120
+gonna do after midnight which is this
+
+214
+00:09:30,190 --> 00:09:32,980
+vertical line here
+
+215
+00:09:31,120 --> 00:09:36,700
+what's the storyline where are we going
+
+216
+00:09:32,980 --> 00:09:39,329
+to go my whole entire career has been
+
+217
+00:09:36,700 --> 00:09:43,420
+based on understanding dis phenomena and
+
+218
+00:09:39,329 --> 00:09:46,420
+it's been a more or less a pursuit of
+
+219
+00:09:43,420 --> 00:09:49,630
+excellence so I want to know with the
+
+220
+00:09:46,420 --> 00:09:51,910
+highest probability which side are they
+
+221
+00:09:49,630 --> 00:09:54,130
+gonna work on okay and what I mean by
+
+222
+00:09:51,910 --> 00:09:56,589
+that is are they going to try to put a
+
+223
+00:09:54,130 --> 00:09:58,630
+specific party of traders whether people
+
+224
+00:09:56,589 --> 00:10:01,810
+wish or bearish traders in on the wrong
+
+225
+00:09:58,630 --> 00:10:06,579
+side right before London creates what
+
+226
+00:10:01,810 --> 00:10:08,740
+the higher low of the day so the key is
+
+227
+00:10:06,579 --> 00:10:09,910
+and this is to take away so far in us
+
+228
+00:10:08,740 --> 00:10:12,370
+this is what should be even in your
+
+229
+00:10:09,910 --> 00:10:15,310
+notes right now is what you're looking
+
+230
+00:10:12,370 --> 00:10:17,200
+for what sets up the opportunity if you
+
+231
+00:10:15,310 --> 00:10:20,170
+will for the particular trading day is
+
+232
+00:10:17,200 --> 00:10:23,800
+if we have a very narrow consolidated
+
+233
+00:10:20,170 --> 00:10:25,570
+range between 7:00 p.m. and midnight or
+
+234
+00:10:23,800 --> 00:10:27,160
+what would be deemed as the Asian range
+
+235
+00:10:25,570 --> 00:10:30,820
+so if we have a very narrow
+
+236
+00:10:27,160 --> 00:10:34,269
+consolidation there that sets up a huge
+
+237
+00:10:30,820 --> 00:10:36,329
+possibility of the algorithm going into
+
+238
+00:10:34,269 --> 00:10:38,860
+a trending model okay so in other words
+
+239
+00:10:36,329 --> 00:10:42,040
+without going into IFTA and teaching
+
+240
+00:10:38,860 --> 00:10:44,290
+anything really about that the market
+
+241
+00:10:42,040 --> 00:10:49,269
+will seek the liquidity above or below
+
+242
+00:10:44,290 --> 00:10:53,070
+this range with a premise that it's
+
+243
+00:10:49,269 --> 00:10:55,720
+going to put them in the wrong side and
+
+244
+00:10:53,070 --> 00:10:58,769
+then it'll go the other way for the
+
+245
+00:10:55,720 --> 00:10:58,769
+remainder of the trading day
+
+246
+00:11:02,930 --> 00:11:07,140
+okay so let's take a look at how it can
+
+247
+00:11:04,830 --> 00:11:09,300
+utilize it in a bullish condition now
+
+248
+00:11:07,140 --> 00:11:11,400
+the periods when price is bullish we can
+
+249
+00:11:09,300 --> 00:11:14,670
+extend the age and range high and low
+
+250
+00:11:11,400 --> 00:11:16,620
+into the future when price returns back
+
+251
+00:11:14,670 --> 00:11:20,640
+to the Asian range high we can
+
+252
+00:11:16,620 --> 00:11:23,390
+anticipate institutional buying let's
+
+253
+00:11:20,640 --> 00:11:25,590
+take a look at that as an example here
+
+254
+00:11:23,390 --> 00:11:27,150
+we're going to assume that we have in
+
+255
+00:11:25,590 --> 00:11:29,610
+understanding our expectation if you
+
+256
+00:11:27,150 --> 00:11:32,160
+will that the Aussie dollar was bullish
+
+257
+00:11:29,610 --> 00:11:35,550
+for this particular day now if you want
+
+258
+00:11:32,160 --> 00:11:37,500
+to know what would blend well to coming
+
+259
+00:11:35,550 --> 00:11:39,150
+to that conclusion of being bullish if
+
+260
+00:11:37,500 --> 00:11:42,360
+you look at the daily chart you'll see
+
+261
+00:11:39,150 --> 00:11:45,420
+that there was a reason for the Aussie
+
+262
+00:11:42,360 --> 00:11:47,340
+dollar reached up to a equal high okay
+
+263
+00:11:45,420 --> 00:11:51,180
+and go down to a four hour or one hour
+
+264
+00:11:47,340 --> 00:11:52,560
+chart you'll see also that it's obvious
+
+265
+00:11:51,180 --> 00:11:55,350
+you can see it so far what we've shown
+
+266
+00:11:52,560 --> 00:11:57,420
+in the teachings in this series it's
+
+267
+00:11:55,350 --> 00:11:59,040
+been pretty obvious to know where the
+
+268
+00:11:57,420 --> 00:12:01,440
+liquidity is and that's what this whole
+
+269
+00:11:59,040 --> 00:12:07,200
+day was reaching for the buy stops above
+
+270
+00:12:01,440 --> 00:12:11,340
+equal high now again I want to take off
+
+271
+00:12:07,200 --> 00:12:16,020
+the Asian range and provide just a blank
+
+272
+00:12:11,340 --> 00:12:20,760
+chart okay and assume for a moment pre
+
+273
+00:12:16,020 --> 00:12:22,710
+my exposure okay to asian range this is
+
+274
+00:12:20,760 --> 00:12:24,510
+what I used to do okay this is how I
+
+275
+00:12:22,710 --> 00:12:28,770
+actually traded and I was doing this
+
+276
+00:12:24,510 --> 00:12:32,970
+since 1994 so you'll appreciate
+
+277
+00:12:28,770 --> 00:12:34,890
+hopefully the evolution if you will of
+
+278
+00:12:32,970 --> 00:12:37,980
+my understanding about how this whole
+
+279
+00:12:34,890 --> 00:12:39,810
+buying below the open when it's bullish
+
+280
+00:12:37,980 --> 00:12:44,750
+or selling above the open when it's
+
+281
+00:12:39,810 --> 00:12:47,520
+bearish all those ideas came from this
+
+282
+00:12:44,750 --> 00:12:50,100
+individual specific element that I'm
+
+283
+00:12:47,520 --> 00:12:52,230
+going to show you now I would have on my
+
+284
+00:12:50,100 --> 00:12:54,440
+chart a list of all kinds of indicators
+
+285
+00:12:52,230 --> 00:12:57,360
+okay so I'm gonna spare you all that but
+
+286
+00:12:54,440 --> 00:13:01,500
+if we just look at price actions as a
+
+287
+00:12:57,360 --> 00:13:05,160
+naked form of open high low and close it
+
+288
+00:13:01,500 --> 00:13:08,310
+can be rather
+
+289
+00:13:05,160 --> 00:13:10,320
+well confusing but if you look for
+
+290
+00:13:08,310 --> 00:13:13,020
+specific times of the day and specific
+
+291
+00:13:10,320 --> 00:13:16,680
+generic concepts or characteristics that
+
+292
+00:13:13,020 --> 00:13:18,150
+should manifest themselves then there's
+
+293
+00:13:16,680 --> 00:13:20,220
+a storyline that will start to develop
+
+294
+00:13:18,150 --> 00:13:23,130
+and you get this over the years many
+
+295
+00:13:20,220 --> 00:13:25,410
+times it's referred to as tapereading
+
+296
+00:13:23,130 --> 00:13:27,600
+many times it's referred to as gut
+
+297
+00:13:25,410 --> 00:13:30,140
+feeling or just triggers intuition or
+
+298
+00:13:27,600 --> 00:13:33,210
+just last I call it intuition and
+
+299
+00:13:30,140 --> 00:13:36,060
+experience if you will once you know
+
+300
+00:13:33,210 --> 00:13:37,800
+what you're looking for you wait for
+
+301
+00:13:36,060 --> 00:13:39,120
+that scenario to unfold so this is what
+
+302
+00:13:37,800 --> 00:13:40,950
+I would have done without the Asian
+
+303
+00:13:39,120 --> 00:13:44,310
+range this is how I always treated the
+
+304
+00:13:40,950 --> 00:13:47,550
+SP the bond market and currency futures
+
+305
+00:13:44,310 --> 00:13:50,340
+I would get the opening price at
+
+306
+00:13:47,550 --> 00:13:53,250
+midnight okay and that opening price is
+
+307
+00:13:50,340 --> 00:13:55,800
+seen here right there and all I do is
+
+308
+00:13:53,250 --> 00:13:58,290
+draw that opening price out all the way
+
+309
+00:13:55,800 --> 00:14:00,750
+out until 11 o'clock in the morning New
+
+310
+00:13:58,290 --> 00:14:02,280
+York time now the reason why I would
+
+311
+00:14:00,750 --> 00:14:04,350
+draw it out to 11 o'clock in the morning
+
+312
+00:14:02,280 --> 00:14:07,980
+New York time is because that would be
+
+313
+00:14:04,350 --> 00:14:10,860
+the end of the morning trend for the S&P
+
+314
+00:14:07,980 --> 00:14:12,840
+500 okay so that there's a reason for
+
+315
+00:14:10,860 --> 00:14:15,930
+that hour it's not that I'm just pulling
+
+316
+00:14:12,840 --> 00:14:18,480
+it number out of the air it's also very
+
+317
+00:14:15,930 --> 00:14:21,420
+close to what was taught in the previous
+
+318
+00:14:18,480 --> 00:14:24,030
+teaching the London close so that's what
+
+319
+00:14:21,420 --> 00:14:26,610
+makes that London close scenario it's
+
+320
+00:14:24,030 --> 00:14:28,940
+the end of the a.m. trend when the stock
+
+321
+00:14:26,610 --> 00:14:32,430
+market or equities market in the states
+
+322
+00:14:28,940 --> 00:14:35,220
+also it overlaps conveniently enough
+
+323
+00:14:32,430 --> 00:14:37,230
+with the close of London trading so
+
+324
+00:14:35,220 --> 00:14:38,820
+there's a little bit of manipulation
+
+325
+00:14:37,230 --> 00:14:41,250
+that goes on in there and some profit
+
+326
+00:14:38,820 --> 00:14:44,160
+taking so it creates an opportunity but
+
+327
+00:14:41,250 --> 00:14:46,260
+for opening range concepts I draw it out
+
+328
+00:14:44,160 --> 00:14:51,780
+to 11 o'clock in the morning New York
+
+329
+00:14:46,260 --> 00:14:54,840
+time okay so if we are looking for a
+
+330
+00:14:51,780 --> 00:14:56,730
+bullish scenario and I'm gonna just make
+
+331
+00:14:54,840 --> 00:15:00,180
+the case that we would be expecting a
+
+332
+00:14:56,730 --> 00:15:03,090
+higher Aussie dollar here I want to see
+
+333
+00:15:00,180 --> 00:15:05,040
+price initially drop down below that
+
+334
+00:15:03,090 --> 00:15:07,200
+opening price because I want to be
+
+335
+00:15:05,040 --> 00:15:08,910
+buying below the opening price the
+
+336
+00:15:07,200 --> 00:15:11,400
+understanding is is I want to figure out
+
+337
+00:15:08,910 --> 00:15:14,280
+what Larry Williams said he couldn't do
+
+338
+00:15:11,400 --> 00:15:16,080
+as a teacher I took it as a challenge as
+
+339
+00:15:14,280 --> 00:15:17,790
+a student that that's what I'm gonna
+
+340
+00:15:16,080 --> 00:15:19,080
+look for I'm gonna figure that out and
+
+341
+00:15:17,790 --> 00:15:22,290
+this is what my interpretation
+
+342
+00:15:19,080 --> 00:15:24,120
+of how to do that very thing was seen in
+
+343
+00:15:22,290 --> 00:15:25,350
+price action I would use the opening
+
+344
+00:15:24,120 --> 00:15:28,590
+price and as it dropped down
+
+345
+00:15:25,350 --> 00:15:30,870
+I would buy right there now if I either
+
+346
+00:15:28,590 --> 00:15:33,120
+did not have the guts to do that
+
+347
+00:15:30,870 --> 00:15:34,650
+or I missed the opportunity sometimes I
+
+348
+00:15:33,120 --> 00:15:35,820
+would wait for a specific price it
+
+349
+00:15:34,650 --> 00:15:39,680
+wouldn't get there and then it would
+
+350
+00:15:35,820 --> 00:15:42,960
+take off if I saw a reversal or
+
+351
+00:15:39,680 --> 00:15:45,630
+potential reversal I would look at the
+
+352
+00:15:42,960 --> 00:15:48,330
+high rate but right before the drop down
+
+353
+00:15:45,630 --> 00:15:50,490
+in here you can see there was a small
+
+354
+00:15:48,330 --> 00:15:54,090
+little segment of price action right
+
+355
+00:15:50,490 --> 00:15:57,450
+before that drop down I would put a buy
+
+356
+00:15:54,090 --> 00:16:00,690
+stop right there now as I graduated in
+
+357
+00:15:57,450 --> 00:16:04,170
+my understanding I would look to get in
+
+358
+00:16:00,690 --> 00:16:08,010
+as price was dropping down but I'd also
+
+359
+00:16:04,170 --> 00:16:11,670
+have this buy stop in place even if I
+
+360
+00:16:08,010 --> 00:16:14,160
+was able to get in many times price
+
+361
+00:16:11,670 --> 00:16:16,290
+would sometimes snap me in and put me in
+
+362
+00:16:14,160 --> 00:16:17,760
+own a buy stop and on my marker order as
+
+363
+00:16:16,290 --> 00:16:19,980
+price was dropping down so in other
+
+364
+00:16:17,760 --> 00:16:21,330
+words what I was doing was I was waiting
+
+365
+00:16:19,980 --> 00:16:24,750
+for price to drop down below this
+
+366
+00:16:21,330 --> 00:16:26,910
+horizontal line or a trend line segment
+
+367
+00:16:24,750 --> 00:16:28,980
+here okay that's delineating open price
+
+368
+00:16:26,910 --> 00:16:30,810
+at midnight in New York time the drop
+
+369
+00:16:28,980 --> 00:16:34,560
+down below that I'm hopefully trying to
+
+370
+00:16:30,810 --> 00:16:36,930
+buy that now as it starts to drop my eye
+
+371
+00:16:34,560 --> 00:16:39,420
+goes right here because now we're below
+
+372
+00:16:36,930 --> 00:16:42,840
+the opening price it may go lower and
+
+373
+00:16:39,420 --> 00:16:45,090
+give me my ultimate price of entry but
+
+374
+00:16:42,840 --> 00:16:46,920
+it may not so as soon as it starts to
+
+375
+00:16:45,090 --> 00:16:48,210
+break down after midnight and it goes
+
+376
+00:16:46,920 --> 00:16:50,880
+back to back down below the opening
+
+377
+00:16:48,210 --> 00:16:54,060
+price I immediately add a buy stop to
+
+378
+00:16:50,880 --> 00:16:55,440
+half the position I want to trade at
+
+379
+00:16:54,060 --> 00:16:56,910
+this point here so in other words if my
+
+380
+00:16:55,440 --> 00:17:00,000
+full position down here was say ten
+
+381
+00:16:56,910 --> 00:17:02,430
+standard Lots I would go in with a buy
+
+382
+00:17:00,000 --> 00:17:04,560
+stop at five standard Lots right here so
+
+383
+00:17:02,430 --> 00:17:06,870
+that way at worst case scenario if I
+
+384
+00:17:04,560 --> 00:17:09,360
+don't get my fill here and it reverses
+
+385
+00:17:06,870 --> 00:17:12,150
+if you will and runs real quick for
+
+386
+00:17:09,360 --> 00:17:13,350
+these highs it'll put me at least half
+
+387
+00:17:12,150 --> 00:17:15,660
+the position I wanted to get on down
+
+388
+00:17:13,350 --> 00:17:18,060
+here so half of something is better than
+
+389
+00:17:15,660 --> 00:17:20,730
+nothing if I were able to put on the
+
+390
+00:17:18,060 --> 00:17:23,110
+full position down here I would still
+
+391
+00:17:20,730 --> 00:17:24,850
+try to take
+
+392
+00:17:23,110 --> 00:17:27,610
+this stop-off if I get my full position
+
+393
+00:17:24,850 --> 00:17:30,130
+on down here sometimes I wasn't able to
+
+394
+00:17:27,610 --> 00:17:31,299
+do that now the problem is and your mind
+
+395
+00:17:30,130 --> 00:17:33,010
+is okay what happens if you put your
+
+396
+00:17:31,299 --> 00:17:37,120
+pole position down here and you're
+
+397
+00:17:33,010 --> 00:17:40,720
+risking 2% well I wasn't risking 2% so
+
+398
+00:17:37,120 --> 00:17:42,880
+I'm trading at 1% 1/2 percent and then
+
+399
+00:17:40,720 --> 00:17:46,480
+this position here if it fills me I'm
+
+400
+00:17:42,880 --> 00:17:48,370
+not over leverage or if I do get one
+
+401
+00:17:46,480 --> 00:17:49,570
+half percent on here and this half here
+
+402
+00:17:48,370 --> 00:17:51,640
+it would technically put me over
+
+403
+00:17:49,570 --> 00:17:54,130
+two-and-a-half percent risk but I'm
+
+404
+00:17:51,640 --> 00:17:55,960
+gonna be more aggressive about trying my
+
+405
+00:17:54,130 --> 00:17:59,080
+initial stop-loss up to try to pare that
+
+406
+00:17:55,960 --> 00:18:01,299
+down to 2% okay and that's really what I
+
+407
+00:17:59,080 --> 00:18:05,460
+was doing now let's contrast what I just
+
+408
+00:18:01,299 --> 00:18:07,540
+did here with the implementation of the
+
+409
+00:18:05,460 --> 00:18:10,690
+agent range and this is exactly where
+
+410
+00:18:07,540 --> 00:18:13,179
+price would fill you with that buy stop
+
+411
+00:18:10,690 --> 00:18:14,890
+being tripped so now I would be long
+
+412
+00:18:13,179 --> 00:18:16,660
+here if I didn't get filled down here
+
+413
+00:18:14,890 --> 00:18:18,370
+below the opening price at midnight this
+
+414
+00:18:16,660 --> 00:18:20,140
+would be where my buy stop with filming
+
+415
+00:18:18,370 --> 00:18:22,720
+and my stop loss would be below the low
+
+416
+00:18:20,140 --> 00:18:25,090
+and you can see I had to weather this
+
+417
+00:18:22,720 --> 00:18:27,190
+retracement here and then because he
+
+418
+00:18:25,090 --> 00:18:29,350
+gets the move later on in the day now
+
+419
+00:18:27,190 --> 00:18:31,330
+let's take this discussion back the
+
+420
+00:18:29,350 --> 00:18:35,080
+implementation of the Asian range and
+
+421
+00:18:31,330 --> 00:18:38,320
+I'll show you how I evolved and seen a
+
+422
+00:18:35,080 --> 00:18:40,360
+much clearer view on price action using
+
+423
+00:18:38,320 --> 00:18:43,600
+the range as I define it here 7 o'clock
+
+424
+00:18:40,360 --> 00:18:46,240
+p.m. New York time to midnight zero zero
+
+425
+00:18:43,600 --> 00:18:48,250
+level not like 12:30 or 1:00 o'clock in
+
+426
+00:18:46,240 --> 00:18:51,400
+the morning on that stuff exactly at
+
+427
+00:18:48,250 --> 00:18:54,970
+midnight ok because what we're banking
+
+428
+00:18:51,400 --> 00:18:58,270
+on is the midnight opening price that's
+
+429
+00:18:54,970 --> 00:19:00,400
+what sets the algorithm it goes through
+
+430
+00:18:58,270 --> 00:19:02,770
+it goes to a reset if basically if you
+
+431
+00:19:00,400 --> 00:19:04,750
+if you want to think of it like that so
+
+432
+00:19:02,770 --> 00:19:06,850
+if we're bullish it's going to go below
+
+433
+00:19:04,750 --> 00:19:11,200
+that opening price to seek liquidity and
+
+434
+00:19:06,850 --> 00:19:13,240
+then go higher and spend the rest of the
+
+435
+00:19:11,200 --> 00:19:14,919
+day going higher when it's bearish it'll
+
+436
+00:19:13,240 --> 00:19:18,250
+go above the opening price at midnight
+
+437
+00:19:14,919 --> 00:19:19,840
+to reach for liquidity and then move
+
+438
+00:19:18,250 --> 00:19:24,870
+lower for several hours going into
+
+439
+00:19:19,840 --> 00:19:26,700
+London closed or New York open so
+
+440
+00:19:24,870 --> 00:19:28,919
+let's take a look at what's going on
+
+441
+00:19:26,700 --> 00:19:31,110
+with the implementation of the agent
+
+442
+00:19:28,919 --> 00:19:34,200
+range now we have a tight asian range in
+
+443
+00:19:31,110 --> 00:19:36,590
+here okay and again by odors are above
+
+444
+00:19:34,200 --> 00:19:39,409
+the range sellers are below the range
+
+445
+00:19:36,590 --> 00:19:42,929
+price right after midnight does what
+
+446
+00:19:39,409 --> 00:19:45,539
+goes up and taps the asian range high
+
+447
+00:19:42,929 --> 00:19:49,110
+now you're saying okay well it didn't go
+
+448
+00:19:45,539 --> 00:19:51,150
+above it let your stop be there and I
+
+449
+00:19:49,110 --> 00:19:53,070
+guarantee you the broker spread will
+
+450
+00:19:51,150 --> 00:19:55,770
+open up wide enough to get that and
+
+451
+00:19:53,070 --> 00:19:57,960
+you'll be in long and your stop-loss
+
+452
+00:19:55,770 --> 00:20:01,860
+which will be right that low or just
+
+453
+00:19:57,960 --> 00:20:03,899
+below it will be tagged right there even
+
+454
+00:20:01,860 --> 00:20:05,370
+though it reflects here your broker and
+
+455
+00:20:03,899 --> 00:20:08,399
+this is what you sign up with when you
+
+456
+00:20:05,370 --> 00:20:12,440
+open up your account you are giving them
+
+457
+00:20:08,399 --> 00:20:14,549
+permission to open the spreads up on you
+
+458
+00:20:12,440 --> 00:20:16,440
+everybody makes this big complaint about
+
+459
+00:20:14,549 --> 00:20:19,950
+oh well they did this they did that you
+
+460
+00:20:16,440 --> 00:20:21,840
+sign it and you agree to it so when you
+
+461
+00:20:19,950 --> 00:20:24,360
+see people online saying a date rig with
+
+462
+00:20:21,840 --> 00:20:25,890
+three pip stop losses that's not true
+
+463
+00:20:24,360 --> 00:20:27,500
+it's not accurate and they are not doing
+
+464
+00:20:25,890 --> 00:20:29,789
+it with live accounts because believe me
+
+465
+00:20:27,500 --> 00:20:33,179
+in-house plenty money gains with the
+
+466
+00:20:29,789 --> 00:20:35,970
+brokers would eat them up immediately it
+
+467
+00:20:33,179 --> 00:20:40,409
+would not happen okay I think personally
+
+468
+00:20:35,970 --> 00:20:42,809
+with a stop loss of anything less than
+
+469
+00:20:40,409 --> 00:20:46,529
+10 pips is just ludicrous it's stupid
+
+470
+00:20:42,809 --> 00:20:48,750
+okay because Begley is from a retail
+
+471
+00:20:46,529 --> 00:20:51,720
+brokers standpoint you're inviting them
+
+472
+00:20:48,750 --> 00:20:53,279
+to take your stock it's just way it is
+
+473
+00:20:51,720 --> 00:20:54,600
+you can argue with me and give me all
+
+474
+00:20:53,279 --> 00:20:55,919
+kinds of track history and say well I'm
+
+475
+00:20:54,600 --> 00:20:56,909
+trading with a five pip stop here and
+
+476
+00:20:55,919 --> 00:20:58,740
+there it's fine
+
+477
+00:20:56,909 --> 00:21:01,760
+do it ten years and see how many times
+
+478
+00:20:58,740 --> 00:21:03,990
+get burned the point is why offer
+
+479
+00:21:01,760 --> 00:21:06,120
+yourself up on the altar for that
+
+480
+00:21:03,990 --> 00:21:09,270
+sacrifice when there's better ways of
+
+481
+00:21:06,120 --> 00:21:11,899
+doing it you don't have to have less
+
+482
+00:21:09,270 --> 00:21:14,220
+than 10 pip stop losses to do very well
+
+483
+00:21:11,899 --> 00:21:15,840
+we have an Asian range in here with the
+
+484
+00:21:14,220 --> 00:21:19,649
+understanding or in this model we're
+
+485
+00:21:15,840 --> 00:21:23,039
+gonna expect bullishness okay and price
+
+486
+00:21:19,649 --> 00:21:25,559
+starts to go up initially and comes back
+
+487
+00:21:23,039 --> 00:21:29,460
+down and breaks the asian range down
+
+488
+00:21:25,559 --> 00:21:31,200
+here so we take out the low on the asian
+
+489
+00:21:29,460 --> 00:21:34,200
+range that's been extended beyond
+
+490
+00:21:31,200 --> 00:21:35,700
+midnight that trips in sellers and it
+
+491
+00:21:34,200 --> 00:21:38,669
+also knocks out individuals that would
+
+492
+00:21:35,700 --> 00:21:40,980
+have been pulled in on a buy stop right
+
+493
+00:21:38,669 --> 00:21:44,759
+at this level so long holders are in and
+
+494
+00:21:40,980 --> 00:21:46,559
+now they're out short holders are in now
+
+495
+00:21:44,759 --> 00:21:49,830
+and their stop-loss is above here or
+
+496
+00:21:46,559 --> 00:21:52,350
+here so they're taking both sides of the
+
+497
+00:21:49,830 --> 00:21:55,859
+marketplace in and out and then the
+
+498
+00:21:52,350 --> 00:21:58,379
+market takes off goes higher what we
+
+499
+00:21:55,859 --> 00:22:02,609
+look for is this little movement right
+
+500
+00:21:58,379 --> 00:22:04,559
+here that movement is what sets the tone
+
+501
+00:22:02,609 --> 00:22:07,289
+when we're bullish we want to be buying
+
+502
+00:22:04,559 --> 00:22:09,809
+there or we can do what I showed earlier
+
+503
+00:22:07,289 --> 00:22:14,309
+you can put a buy stop right here if it
+
+504
+00:22:09,809 --> 00:22:16,460
+gets filled a contingent order that
+
+505
+00:22:14,309 --> 00:22:19,980
+would be if I'm filled with your broker
+
+506
+00:22:16,460 --> 00:22:22,889
+for cancer order basically if we have a
+
+507
+00:22:19,980 --> 00:22:25,350
+parent contingent order suggesting they
+
+508
+00:22:22,889 --> 00:22:27,929
+who buy on a stop if that stock gets
+
+509
+00:22:25,350 --> 00:22:29,999
+filled if it happens then we would place
+
+510
+00:22:27,929 --> 00:22:33,149
+a sell stop below this low at some
+
+511
+00:22:29,999 --> 00:22:34,769
+specific price level and you could leave
+
+512
+00:22:33,149 --> 00:22:36,720
+that in the marketplace and go to sleep
+
+513
+00:22:34,769 --> 00:22:38,759
+and don't even worry about watching all
+
+514
+00:22:36,720 --> 00:22:43,200
+this stuff okay that's one way you can
+
+515
+00:22:38,759 --> 00:22:45,330
+apply a day traders model and/or enter
+
+516
+00:22:43,200 --> 00:22:47,190
+with a long term model but using a day
+
+517
+00:22:45,330 --> 00:22:52,169
+traders approach to trading that whole
+
+518
+00:22:47,190 --> 00:22:54,629
+entry if you've missed this one okay and
+
+519
+00:22:52,169 --> 00:22:56,369
+price starts to rally away we have to
+
+520
+00:22:54,629 --> 00:22:58,980
+have the story line behind this example
+
+521
+00:22:56,369 --> 00:23:02,190
+of being bullish otherwise this could be
+
+522
+00:22:58,980 --> 00:23:03,359
+an easy sell as you'll see when we talk
+
+523
+00:23:02,190 --> 00:23:06,299
+about when the conditions are bearish
+
+524
+00:23:03,359 --> 00:23:08,190
+but knowing where the market is most
+
+525
+00:23:06,299 --> 00:23:11,879
+likely trying to go from a higher time
+
+526
+00:23:08,190 --> 00:23:13,710
+frame standpoint is significant and
+
+527
+00:23:11,879 --> 00:23:15,210
+crucial and utilization of the Asian
+
+528
+00:23:13,710 --> 00:23:16,499
+range otherwise you're just going to do
+
+529
+00:23:15,210 --> 00:23:20,070
+some things that aren't going to be
+
+530
+00:23:16,499 --> 00:23:22,139
+profitable so if we're bullish we'd like
+
+531
+00:23:20,070 --> 00:23:24,840
+to see this element here and then this
+
+532
+00:23:22,139 --> 00:23:26,369
+here no problem we don't need to get
+
+533
+00:23:24,840 --> 00:23:27,960
+that and we don't need to be a part of
+
+534
+00:23:26,369 --> 00:23:30,539
+this movie or okay we wouldn't wait for
+
+535
+00:23:27,960 --> 00:23:33,450
+price to come back down and touch the
+
+536
+00:23:30,539 --> 00:23:35,279
+Asian range high now it does so here
+
+537
+00:23:33,450 --> 00:23:38,609
+that's a little early and then we do it
+
+538
+00:23:35,279 --> 00:23:40,980
+again in the New York open so New York
+
+539
+00:23:38,609 --> 00:23:43,919
+open we see price trading back to the
+
+540
+00:23:40,980 --> 00:23:45,539
+Asian range high right there is where
+
+541
+00:23:43,919 --> 00:23:47,399
+institutional buying is going to step in
+
+542
+00:23:45,539 --> 00:23:49,980
+why are they doing that because the
+
+543
+00:23:47,399 --> 00:23:52,140
+initial range that was set between 7:00
+
+544
+00:23:49,980 --> 00:23:54,120
+p.m. and midnight
+
+545
+00:23:52,140 --> 00:23:58,470
+midnight is when HIPAA the interbank
+
+546
+00:23:54,120 --> 00:23:59,850
+price delivery algorithm resets and then
+
+547
+00:23:58,470 --> 00:24:03,300
+it it attacks
+
+548
+00:23:59,850 --> 00:24:04,440
+open liquidity or the open flow which
+
+549
+00:24:03,300 --> 00:24:06,360
+would be the order table of the agent
+
+550
+00:24:04,440 --> 00:24:08,220
+range and below the agent range all
+
+551
+00:24:06,360 --> 00:24:10,200
+right you know you're gonna know 15
+
+552
+00:24:08,220 --> 00:24:11,610
+different people that work at a bank or
+
+553
+00:24:10,200 --> 00:24:13,590
+they know somebody they smoke cigars
+
+554
+00:24:11,610 --> 00:24:14,760
+with on the weekends in the air market
+
+555
+00:24:13,590 --> 00:24:17,930
+maker they're gonna say what I just said
+
+556
+00:24:14,760 --> 00:24:19,680
+to you is nonsense but I'm telling you
+
+557
+00:24:17,930 --> 00:24:22,080
+they don't know what you're talking
+
+558
+00:24:19,680 --> 00:24:24,270
+about because I'm doing this daily to
+
+559
+00:24:22,080 --> 00:24:26,820
+the PIP week after week day after day
+
+560
+00:24:24,270 --> 00:24:28,170
+and I'm telling you it's not based on
+
+561
+00:24:26,820 --> 00:24:31,200
+anything else except for what I learned
+
+562
+00:24:28,170 --> 00:24:34,590
+okay and some of the things are gonna go
+
+563
+00:24:31,200 --> 00:24:36,240
+in the category of tinfoil hat and I'll
+
+564
+00:24:34,590 --> 00:24:38,520
+just let you wrestle with that I don't
+
+565
+00:24:36,240 --> 00:24:40,080
+really care about your opinion just know
+
+566
+00:24:38,520 --> 00:24:42,090
+that what I'm suggesting to you here if
+
+567
+00:24:40,080 --> 00:24:44,880
+you look at it in price action it's
+
+568
+00:24:42,090 --> 00:24:48,150
+there so we can see the optimal trade
+
+569
+00:24:44,880 --> 00:24:51,090
+entry from this low to this high retrace
+
+570
+00:24:48,150 --> 00:24:53,370
+back down New York open overlap with the
+
+571
+00:24:51,090 --> 00:24:54,900
+Asian range high with the story line is
+
+572
+00:24:53,370 --> 00:24:58,620
+that we're bullish on the higher time
+
+573
+00:24:54,900 --> 00:25:00,240
+frame beautiful illustration of a Asian
+
+574
+00:24:58,620 --> 00:25:04,260
+range application in bullish conditions
+
+575
+00:25:00,240 --> 00:25:07,080
+in an off to the races we go so we have
+
+576
+00:25:04,260 --> 00:25:09,390
+two opportunities in here in the New
+
+577
+00:25:07,080 --> 00:25:12,830
+York open and we have one set up here
+
+578
+00:25:09,390 --> 00:25:15,480
+that gives us a really really low and
+
+579
+00:25:12,830 --> 00:25:18,840
+entry point with very little risk in
+
+580
+00:25:15,480 --> 00:25:19,860
+terms of our entry and then the
+
+581
+00:25:18,840 --> 00:25:23,100
+subsequent move higher
+
+582
+00:25:19,860 --> 00:25:25,440
+the other portion would be entering on a
+
+583
+00:25:23,100 --> 00:25:27,930
+stop here above the Asian range but you
+
+584
+00:25:25,440 --> 00:25:30,660
+wait you have to sit up and you have to
+
+585
+00:25:27,930 --> 00:25:32,700
+wait for price to drop down below the
+
+586
+00:25:30,660 --> 00:25:34,140
+Asian range then you buy want to break
+
+587
+00:25:32,700 --> 00:25:36,900
+above the asian range high but the
+
+588
+00:25:34,140 --> 00:25:38,610
+conditions have to be bullish and we
+
+589
+00:25:36,900 --> 00:25:40,410
+have to first see Asian range low break
+
+590
+00:25:38,610 --> 00:25:42,830
+then a buy stock can be placed at the
+
+591
+00:25:40,410 --> 00:25:45,720
+Asian range high if you do this before
+
+592
+00:25:42,830 --> 00:25:47,850
+the Asian range low is taken you will
+
+593
+00:25:45,720 --> 00:25:49,700
+get burned you will get stopped out you
+
+594
+00:25:47,850 --> 00:25:52,230
+will send me email saying doesn't work
+
+595
+00:25:49,700 --> 00:25:53,730
+I'm telling you there's rules here and
+
+596
+00:25:52,230 --> 00:25:55,350
+it just gave them to you rewind the
+
+597
+00:25:53,730 --> 00:25:58,280
+video and listen to it again
+
+598
+00:25:55,350 --> 00:25:58,280
+it's very clear
+
+599
+00:26:01,020 --> 00:26:06,280
+all right say utilization of the Asian
+
+600
+00:26:03,760 --> 00:26:07,600
+range in bears conditions okay again
+
+601
+00:26:06,280 --> 00:26:10,420
+like we said but when it's bullish
+
+602
+00:26:07,600 --> 00:26:12,880
+there's a period it's quiet right before
+
+603
+00:26:10,420 --> 00:26:14,140
+the Frankfurt and London open and we
+
+604
+00:26:12,880 --> 00:26:16,210
+wouldn't focusing on that and when it's
+
+605
+00:26:14,140 --> 00:26:18,510
+in a tight narrow consolidation we're
+
+606
+00:26:16,210 --> 00:26:20,800
+gonna be looking for some measure of
+
+607
+00:26:18,510 --> 00:26:23,590
+manipulation if you will on price action
+
+608
+00:26:20,800 --> 00:26:25,990
+so what we're going to doing is waiting
+
+609
+00:26:23,590 --> 00:26:27,610
+for a break in the Asian range low and
+
+610
+00:26:25,990 --> 00:26:28,870
+then when price trades back up to it
+
+611
+00:26:27,610 --> 00:26:31,180
+we're going to be anticipating
+
+612
+00:26:28,870 --> 00:26:33,120
+institutional selling so let's take a
+
+613
+00:26:31,180 --> 00:26:36,130
+closer look at this example here
+
+614
+00:26:33,120 --> 00:26:40,060
+zoom in here get some more detail now
+
+615
+00:26:36,130 --> 00:26:43,870
+let this image burnin for a minute okay
+
+616
+00:26:40,060 --> 00:26:47,050
+and now we're going to take it off and
+
+617
+00:26:43,870 --> 00:26:50,610
+go to an element of naked price action
+
+618
+00:26:47,050 --> 00:26:55,050
+and I'm gonna show you what I was doing
+
+619
+00:26:50,610 --> 00:26:58,290
+prior to learning about the Asian range
+
+620
+00:26:55,050 --> 00:27:01,480
+there's the opening price again this
+
+621
+00:26:58,290 --> 00:27:04,660
+candle and I would be looking for
+
+622
+00:27:01,480 --> 00:27:06,340
+bearish price movement and if we're
+
+623
+00:27:04,660 --> 00:27:08,680
+going to just suspend your disbelief
+
+624
+00:27:06,340 --> 00:27:10,930
+whether or not I was actually bears
+
+625
+00:27:08,680 --> 00:27:12,730
+before this day or not trust me and go
+
+626
+00:27:10,930 --> 00:27:14,440
+through my Twitter you'll see all kinds
+
+627
+00:27:12,730 --> 00:27:18,400
+of examples of me doing this very thing
+
+628
+00:27:14,440 --> 00:27:20,770
+but nonetheless we're gonna sue for sake
+
+629
+00:27:18,400 --> 00:27:23,560
+of argument that we're bearish on this
+
+630
+00:27:20,770 --> 00:27:25,330
+particular currency that day okay we're
+
+631
+00:27:23,560 --> 00:27:27,130
+gonna be looking for price movement
+
+632
+00:27:25,330 --> 00:27:29,770
+above the opening price that's what I'm
+
+633
+00:27:27,130 --> 00:27:32,410
+looking for here okay now I learned
+
+634
+00:27:29,770 --> 00:27:36,130
+early on that these levels these double
+
+635
+00:27:32,410 --> 00:27:39,130
+tops they were fake outz and that's why
+
+636
+00:27:36,130 --> 00:27:40,840
+I loved the turtle soup trading pattern
+
+637
+00:27:39,130 --> 00:27:42,310
+that I learned in a book called street
+
+638
+00:27:40,840 --> 00:27:43,660
+smarts and if you don't have it you
+
+639
+00:27:42,310 --> 00:27:46,030
+should buy it's a very very good book
+
+640
+00:27:43,660 --> 00:27:47,460
+but that pattern in there resonated with
+
+641
+00:27:46,030 --> 00:27:50,650
+me because I was already doing things
+
+642
+00:27:47,460 --> 00:27:52,240
+similar to that and I would just look
+
+643
+00:27:50,650 --> 00:27:53,590
+for those equal highs and equal lows
+
+644
+00:27:52,240 --> 00:27:55,870
+which I've already taught you in this
+
+645
+00:27:53,590 --> 00:27:57,490
+series and right away there's a large
+
+646
+00:27:55,870 --> 00:27:59,020
+number of you in our community that are
+
+647
+00:27:57,490 --> 00:28:00,280
+just going through the roof right now
+
+648
+00:27:59,020 --> 00:28:02,920
+with excitement cuz now you see
+
+649
+00:28:00,280 --> 00:28:05,050
+something that's always been there but
+
+650
+00:28:02,920 --> 00:28:07,390
+now you see it and it's useful to you
+
+651
+00:28:05,050 --> 00:28:09,340
+you can see where price is drawn to well
+
+652
+00:28:07,390 --> 00:28:11,980
+if we see this time of day this is
+
+653
+00:28:09,340 --> 00:28:14,320
+midnight and we're bearish we have equal
+
+654
+00:28:11,980 --> 00:28:16,060
+highs in here right away I want to know
+
+655
+00:28:14,320 --> 00:28:17,860
+there's going to be a rally above the
+
+656
+00:28:16,060 --> 00:28:19,720
+opening price and I extend that out in
+
+657
+00:28:17,860 --> 00:28:22,810
+time about love o'clock in the morning
+
+658
+00:28:19,720 --> 00:28:25,030
+New York time and any time price trades
+
+659
+00:28:22,810 --> 00:28:30,100
+above that opening price and it's inside
+
+660
+00:28:25,030 --> 00:28:33,400
+of a kill zone that means the London or
+
+661
+00:28:30,100 --> 00:28:34,960
+New York open kill zone if it trades
+
+662
+00:28:33,400 --> 00:28:40,450
+above that opening price I will look to
+
+663
+00:28:34,960 --> 00:28:41,980
+go short now if we go above it and this
+
+664
+00:28:40,450 --> 00:28:43,480
+is what I was doing before I started
+
+665
+00:28:41,980 --> 00:28:44,890
+incorporating the Asian range concept I
+
+666
+00:28:43,480 --> 00:28:47,500
+would just simply look for this rally
+
+667
+00:28:44,890 --> 00:28:48,280
+above if I got this scenario here I was
+
+668
+00:28:47,500 --> 00:28:51,520
+selling right there
+
+669
+00:28:48,280 --> 00:28:53,740
+I would sell short the SP I would sell
+
+670
+00:28:51,520 --> 00:28:56,710
+short Deutschmark I would sell short the
+
+671
+00:28:53,740 --> 00:28:59,380
+Swiss franc I would swell the and all
+
+672
+00:28:56,710 --> 00:29:00,730
+those commodity futures contracts that's
+
+673
+00:28:59,380 --> 00:29:02,860
+what I would that was my entry technique
+
+674
+00:29:00,730 --> 00:29:04,720
+right there and then I would go to sleep
+
+675
+00:29:02,860 --> 00:29:06,670
+and wake up around 5 o'clock and more
+
+676
+00:29:04,720 --> 00:29:08,140
+and hopefully I'd get some profit and I
+
+677
+00:29:06,670 --> 00:29:09,370
+would take something off try my
+
+678
+00:29:08,140 --> 00:29:11,200
+stop-loss really really tight sometimes
+
+679
+00:29:09,370 --> 00:29:13,810
+get stopped out other times it would
+
+680
+00:29:11,200 --> 00:29:16,930
+carry right on over into Globex into
+
+681
+00:29:13,810 --> 00:29:19,060
+open outcry in the pits and then I would
+
+682
+00:29:16,930 --> 00:29:20,620
+catch some more follow-through in the
+
+683
+00:29:19,060 --> 00:29:26,140
+day session hours in the New York
+
+684
+00:29:20,620 --> 00:29:30,130
+session but if that's my entry point
+
+685
+00:29:26,140 --> 00:29:33,490
+there just like anybody else life may
+
+686
+00:29:30,130 --> 00:29:35,800
+get in the way I may get sick my kids
+
+687
+00:29:33,490 --> 00:29:37,540
+may be complaining about growing pains
+
+688
+00:29:35,800 --> 00:29:39,340
+and I can't be in front of my charts you
+
+689
+00:29:37,540 --> 00:29:43,480
+know this happens you know I'm a dad I'm
+
+690
+00:29:39,340 --> 00:29:46,060
+a husband I own - I'm a pet parent own
+
+691
+00:29:43,480 --> 00:29:48,010
+two boxers and anything can happen
+
+692
+00:29:46,060 --> 00:29:49,390
+okay the distract me from actually
+
+693
+00:29:48,010 --> 00:29:51,580
+getting in where I want to get in it I
+
+694
+00:29:49,390 --> 00:29:52,810
+don't always use limit orders there are
+
+695
+00:29:51,580 --> 00:29:55,300
+certain conditions where I want to use a
+
+696
+00:29:52,810 --> 00:29:57,310
+limit order but mainly I want to be
+
+697
+00:29:55,300 --> 00:29:59,200
+executing rate when the markets
+
+698
+00:29:57,310 --> 00:30:02,380
+happening to be trading against my
+
+699
+00:29:59,200 --> 00:30:04,210
+directional bias for the day I don't
+
+700
+00:30:02,380 --> 00:30:05,920
+mind market order some folks that say
+
+701
+00:30:04,210 --> 00:30:07,290
+you shouldn't be using market orders you
+
+702
+00:30:05,920 --> 00:30:09,820
+know they should be using limit orders
+
+703
+00:30:07,290 --> 00:30:12,190
+again that goes along with not knowing
+
+704
+00:30:09,820 --> 00:30:14,230
+what I do I'm actually trading
+
+705
+00:30:12,190 --> 00:30:16,870
+aggressively rate as the markets
+
+706
+00:30:14,230 --> 00:30:18,310
+screaming higher I go marketing selling
+
+707
+00:30:16,870 --> 00:30:19,810
+short rate than in there and you seen my
+
+708
+00:30:18,310 --> 00:30:22,300
+examples I'm getting in there rate to
+
+709
+00:30:19,810 --> 00:30:23,620
+highs and order very lows so I don't
+
+710
+00:30:22,300 --> 00:30:25,480
+care what anybody else's opinion is I
+
+711
+00:30:23,620 --> 00:30:28,170
+can do it over and over again you're not
+
+712
+00:30:25,480 --> 00:30:31,260
+repeatedly showing it week after week
+
+713
+00:30:28,170 --> 00:30:34,560
+if you are up in a week looking at lemon
+
+714
+00:30:31,260 --> 00:30:36,960
+you can use market orders but if I am
+
+715
+00:30:34,560 --> 00:30:39,450
+NOT going to be awake I will put a limit
+
+716
+00:30:36,960 --> 00:30:41,280
+order in about two pips above these
+
+717
+00:30:39,450 --> 00:30:42,840
+equal highs my limit order would be
+
+718
+00:30:41,280 --> 00:30:45,720
+about bear and my stop-loss will be
+
+719
+00:30:42,840 --> 00:30:48,450
+about 35 to 40 pips and I would go to
+
+720
+00:30:45,720 --> 00:30:51,510
+sleep and be comfortable with that ok I
+
+721
+00:30:48,450 --> 00:30:54,300
+would have an 80 pip take profit on the
+
+722
+00:30:51,510 --> 00:30:56,730
+full position that way if I did wake up
+
+723
+00:30:54,300 --> 00:30:59,670
+and it moved an accelerated pace and
+
+724
+00:30:56,730 --> 00:31:02,310
+move 80 pips that would be 5 pips over
+
+725
+00:30:59,670 --> 00:31:03,810
+my weekly objective which is 75 pips I'm
+
+726
+00:31:02,310 --> 00:31:05,610
+always aiming for fifty seventy five
+
+727
+00:31:03,810 --> 00:31:06,900
+pips only for a weekly objective once I
+
+728
+00:31:05,610 --> 00:31:09,930
+do that I'm done trading I don't do
+
+729
+00:31:06,900 --> 00:31:11,880
+anything else but I leave myself the
+
+730
+00:31:09,930 --> 00:31:13,710
+opportunity to catch a tiger by the tail
+
+731
+00:31:11,880 --> 00:31:15,960
+if I wake up and the markets already
+
+732
+00:31:13,710 --> 00:31:17,310
+moved 80 pips I'm done for the week and
+
+733
+00:31:15,960 --> 00:31:21,960
+I didn't do anything but sleep in the
+
+734
+00:31:17,310 --> 00:31:25,320
+whole process but if I miss this
+
+735
+00:31:21,960 --> 00:31:28,800
+opportunity okay if I miss it my eyes go
+
+736
+00:31:25,320 --> 00:31:30,720
+rate to the low that form prior to that
+
+737
+00:31:28,800 --> 00:31:32,850
+run above the opening price when I'm
+
+738
+00:31:30,720 --> 00:31:35,850
+bearish so I'm going to place a sell
+
+739
+00:31:32,850 --> 00:31:37,620
+stop to get me in now sell stops
+
+740
+00:31:35,850 --> 00:31:41,160
+gentlemen you understand them as a
+
+741
+00:31:37,620 --> 00:31:43,650
+protective basis or mechanism to protect
+
+742
+00:31:41,160 --> 00:31:46,080
+your long position if there is no long
+
+743
+00:31:43,650 --> 00:31:47,970
+position and you place a sell stop it's
+
+744
+00:31:46,080 --> 00:31:50,130
+going to put you in short and that's
+
+745
+00:31:47,970 --> 00:31:53,010
+what I'd be expecting to see happen here
+
+746
+00:31:50,130 --> 00:31:54,360
+so in price drops down I could be short
+
+747
+00:31:53,010 --> 00:31:56,700
+there and my stop-loss
+
+748
+00:31:54,360 --> 00:31:58,230
+would be above the high today so let's
+
+749
+00:31:56,700 --> 00:32:01,680
+assume for a moment that I missed this
+
+750
+00:31:58,230 --> 00:32:04,730
+opportunity here and I just can't stay
+
+751
+00:32:01,680 --> 00:32:06,900
+up something happens you know my wife is
+
+752
+00:32:04,730 --> 00:32:10,800
+getting ready have a baby this has
+
+753
+00:32:06,900 --> 00:32:13,110
+happened I had to take a trade so I'm
+
+754
+00:32:10,800 --> 00:32:14,850
+you know I have to trade folks okay it
+
+755
+00:32:13,110 --> 00:32:16,200
+is what it is okay and I had to hear
+
+756
+00:32:14,850 --> 00:32:19,890
+about it on the way to the hospital that
+
+757
+00:32:16,200 --> 00:32:22,200
+day but nonetheless you know this is
+
+758
+00:32:19,890 --> 00:32:24,990
+this is real-life stuff here folks so if
+
+759
+00:32:22,200 --> 00:32:26,790
+I miss the opportunity to get in okay
+
+760
+00:32:24,990 --> 00:32:29,010
+and and the Swiss franc is looking to go
+
+761
+00:32:26,790 --> 00:32:31,380
+lower I'm gonna place a sell stop a
+
+762
+00:32:29,010 --> 00:32:32,970
+little swing low right before the rally
+
+763
+00:32:31,380 --> 00:32:35,400
+above the opening price with the
+
+764
+00:32:32,970 --> 00:32:37,590
+expectation that if this order fails it
+
+765
+00:32:35,400 --> 00:32:40,830
+will place a protective buy stop above
+
+766
+00:32:37,590 --> 00:32:41,970
+the high + 3 pips and then again same
+
+767
+00:32:40,830 --> 00:32:44,700
+scenario I would
+
+768
+00:32:41,970 --> 00:32:46,650
+take profit of 50 tips which is a low
+
+769
+00:32:44,700 --> 00:32:48,300
+and I make weekly objective and that's
+
+770
+00:32:46,650 --> 00:32:51,260
+it I don't trail my stop
+
+771
+00:32:48,300 --> 00:32:53,340
+I do not trail stops I do not have a
+
+772
+00:32:51,260 --> 00:32:54,750
+mechanism that trails my stop-loss
+
+773
+00:32:53,340 --> 00:32:56,190
+slower because I don't think it should
+
+774
+00:32:54,750 --> 00:32:57,930
+be done okay
+
+775
+00:32:56,190 --> 00:33:00,270
+I teach taking partials is the better
+
+776
+00:32:57,930 --> 00:33:02,130
+way to go and leave your stop-loss where
+
+777
+00:33:00,270 --> 00:33:04,020
+you initially put it manage the risk
+
+778
+00:33:02,130 --> 00:33:05,880
+from taking partials and then slowly
+
+779
+00:33:04,020 --> 00:33:08,280
+move it down after New York trading
+
+780
+00:33:05,880 --> 00:33:10,590
+starts because if you're gonna get a big
+
+781
+00:33:08,280 --> 00:33:12,810
+grain today like we see here you want to
+
+782
+00:33:10,590 --> 00:33:14,940
+trail the stop-loss after New York has
+
+783
+00:33:12,810 --> 00:33:17,130
+done its retracement if we take the
+
+784
+00:33:14,940 --> 00:33:20,160
+conversation back to the utilization of
+
+785
+00:33:17,130 --> 00:33:21,660
+the Asian range we can see here what's
+
+786
+00:33:20,160 --> 00:33:24,000
+actually happening is we have a tight
+
+787
+00:33:21,660 --> 00:33:26,520
+narrow consolidation and we're bearish
+
+788
+00:33:24,000 --> 00:33:28,770
+now think we have folks that want to buy
+
+789
+00:33:26,520 --> 00:33:30,660
+on the breakout they get tripped in with
+
+790
+00:33:28,770 --> 00:33:32,640
+the move above the asian range high here
+
+791
+00:33:30,660 --> 00:33:34,200
+so now what are they they're long wears
+
+792
+00:33:32,640 --> 00:33:36,150
+their stuff lots gonna be at right below
+
+793
+00:33:34,200 --> 00:33:37,800
+that low mark goes right down below
+
+794
+00:33:36,150 --> 00:33:39,740
+there to take their stops notice it
+
+795
+00:33:37,800 --> 00:33:42,510
+doesn't just go a little bit it goes
+
+796
+00:33:39,740 --> 00:33:44,340
+conveniently 10 pips below it it's gonna
+
+797
+00:33:42,510 --> 00:33:47,640
+sweep out anybody that has a stop loss
+
+798
+00:33:44,340 --> 00:33:49,260
+at or just below that low and using that
+
+799
+00:33:47,640 --> 00:33:51,960
+little tail over here they think that
+
+800
+00:33:49,260 --> 00:33:54,510
+they're safe they're not the real move
+
+801
+00:33:51,960 --> 00:33:57,960
+is running above the asian range high
+
+802
+00:33:54,510 --> 00:34:00,330
+after the buys have been put in then
+
+803
+00:33:57,960 --> 00:34:02,220
+taken out driven back up again why
+
+804
+00:34:00,330 --> 00:34:04,290
+because short sellers that we're lucky
+
+805
+00:34:02,220 --> 00:34:06,840
+enough to try to sell short at the top
+
+806
+00:34:04,290 --> 00:34:08,670
+of this channel or trading range they're
+
+807
+00:34:06,840 --> 00:34:10,920
+making money here they're not going to
+
+808
+00:34:08,670 --> 00:34:12,420
+be allowed to be profitable they run on
+
+809
+00:34:10,920 --> 00:34:15,630
+their stops which would be a buy stop
+
+810
+00:34:12,420 --> 00:34:17,610
+run above these highs that's where
+
+811
+00:34:15,630 --> 00:34:20,760
+you're looking to be a seller this is
+
+812
+00:34:17,610 --> 00:34:25,890
+the lowest risk high probability entry
+
+813
+00:34:20,760 --> 00:34:29,060
+for using the Asian range if we wait for
+
+814
+00:34:25,890 --> 00:34:31,940
+the Asian range low to be broken
+
+815
+00:34:29,060 --> 00:34:33,590
+and it reads back up to it that's the
+
+816
+00:34:31,940 --> 00:34:35,600
+other entry point using the Asian range
+
+817
+00:34:33,590 --> 00:34:38,930
+so we can see there's two ways of using
+
+818
+00:34:35,600 --> 00:34:40,970
+this range selling above the Asian range
+
+819
+00:34:38,930 --> 00:34:42,530
+high when we're bearish best scenario
+
+820
+00:34:40,970 --> 00:34:45,590
+especially if you have the centering
+
+821
+00:34:42,530 --> 00:34:48,740
+that's been outlined here understand the
+
+822
+00:34:45,590 --> 00:34:53,000
+storyline you have to have a bias on the
+
+823
+00:34:48,740 --> 00:34:55,280
+day and do not change gears based on all
+
+824
+00:34:53,000 --> 00:34:57,590
+this little movement here you have to
+
+825
+00:34:55,280 --> 00:34:59,660
+stick to what your analysis is calling
+
+826
+00:34:57,590 --> 00:35:02,030
+for our time frame is going to go lower
+
+827
+00:34:59,660 --> 00:35:05,240
+so we want to be looking for the market
+
+828
+00:35:02,030 --> 00:35:08,630
+to take out the Asian range high if that
+
+829
+00:35:05,240 --> 00:35:10,910
+happens we could sell short there or the
+
+830
+00:35:08,630 --> 00:35:12,890
+low risk confirmation trade is wait for
+
+831
+00:35:10,910 --> 00:35:14,660
+the Asian range low the break and then
+
+832
+00:35:12,890 --> 00:35:17,030
+trade back up to it and then we can sell
+
+833
+00:35:14,660 --> 00:35:19,880
+there okay and if it happens to occur
+
+834
+00:35:17,030 --> 00:35:22,430
+during an ICT kill zone London open or
+
+835
+00:35:19,880 --> 00:35:25,370
+New York open their probabilities go
+
+836
+00:35:22,430 --> 00:35:28,460
+through the roof in terms of being well
+
+837
+00:35:25,370 --> 00:35:29,930
+accurate and then you can see that
+
+838
+00:35:28,460 --> 00:35:34,070
+unfolding your charts if you go through
+
+839
+00:35:29,930 --> 00:35:37,610
+the the charts with this in mind okay
+
+840
+00:35:34,070 --> 00:35:39,380
+just put the asian range on and paint
+
+841
+00:35:37,610 --> 00:35:42,800
+them manually I know you all want
+
+842
+00:35:39,380 --> 00:35:45,710
+indicators and pop this up and empty for
+
+843
+00:35:42,800 --> 00:35:47,960
+this and empty for that physically draw
+
+844
+00:35:45,710 --> 00:35:49,880
+them in spend some time in the charts
+
+845
+00:35:47,960 --> 00:35:51,500
+get intimate with price action because
+
+846
+00:35:49,880 --> 00:35:54,320
+it's going to teach you a lot more I had
+
+847
+00:35:51,500 --> 00:35:57,730
+to do this stuff with charts that were
+
+848
+00:35:54,320 --> 00:36:01,160
+you know drew hand-drawn like I I had
+
+849
+00:35:57,730 --> 00:36:02,330
+well session with printed charts so I
+
+850
+00:36:01,160 --> 00:36:04,610
+would print out charts and I would do
+
+851
+00:36:02,330 --> 00:36:06,380
+all these things by hand and a ruler and
+
+852
+00:36:04,610 --> 00:36:08,660
+a magic marker and highlighter that's
+
+853
+00:36:06,380 --> 00:36:10,870
+the stuff I used to do and then I'm
+
+854
+00:36:08,660 --> 00:36:14,120
+convinced that's what made me good at it
+
+855
+00:36:10,870 --> 00:36:15,560
+being lazy about this okay what you're
+
+856
+00:36:14,120 --> 00:36:17,720
+really saying is is I don't really have
+
+857
+00:36:15,560 --> 00:36:19,070
+time to really study it just give me the
+
+858
+00:36:17,720 --> 00:36:22,010
+lipstick on the chart and then there it
+
+859
+00:36:19,070 --> 00:36:25,270
+is you will not get the same level of
+
+860
+00:36:22,010 --> 00:36:29,090
+appreciation or understanding if you
+
+861
+00:36:25,270 --> 00:36:31,520
+short cut it draw the levels on as I
+
+862
+00:36:29,090 --> 00:36:33,910
+taught so by taking the time to draw
+
+863
+00:36:31,520 --> 00:36:36,770
+this out manually and reminding yourself
+
+864
+00:36:33,910 --> 00:36:40,280
+okay maybe even be worth taking the time
+
+865
+00:36:36,770 --> 00:36:42,660
+to type out a notation you know in this
+
+866
+00:36:40,280 --> 00:36:46,500
+in this area here
+
+867
+00:36:42,660 --> 00:36:50,570
+to not focus one two movements below the
+
+868
+00:36:46,500 --> 00:36:54,800
+age range okay focus primarily on a move
+
+869
+00:36:50,570 --> 00:36:58,860
+above the Asian range high when we're
+
+870
+00:36:54,800 --> 00:37:01,260
+bearish and/or if we break the low the
+
+871
+00:36:58,860 --> 00:37:06,690
+Asian range after midnight wait for a
+
+872
+00:37:01,260 --> 00:37:09,930
+retest uniform for resistance now think
+
+873
+00:37:06,690 --> 00:37:12,360
+about what you're seeing here if we look
+
+874
+00:37:09,930 --> 00:37:14,100
+at price action like this if what if we
+
+875
+00:37:12,360 --> 00:37:18,690
+don't use the asian range concept here
+
+876
+00:37:14,100 --> 00:37:22,590
+as i'm outlining the question is is why
+
+877
+00:37:18,690 --> 00:37:24,750
+would this be a selling point i mean
+
+878
+00:37:22,590 --> 00:37:26,400
+granted you know you can go back to this
+
+879
+00:37:24,750 --> 00:37:28,470
+low here and say well that's probably a
+
+880
+00:37:26,400 --> 00:37:31,770
+reason for it but would you really look
+
+881
+00:37:28,470 --> 00:37:34,530
+at that after seeing this and then this
+
+882
+00:37:31,770 --> 00:37:36,120
+movement through yeah without this in
+
+883
+00:37:34,530 --> 00:37:38,520
+sight chances are you're probably not
+
+884
+00:37:36,120 --> 00:37:39,690
+going to see this actual scenario and
+
+885
+00:37:38,520 --> 00:37:42,690
+that's just a difference between
+
+886
+00:37:39,690 --> 00:37:45,000
+understanding tape reading and building
+
+887
+00:37:42,690 --> 00:37:47,340
+context behind price and also sticking
+
+888
+00:37:45,000 --> 00:37:49,710
+with a bias it's important to know what
+
+889
+00:37:47,340 --> 00:37:51,810
+a trading bias is for any given day and
+
+890
+00:37:49,710 --> 00:37:53,520
+anyone that tells you don't trade with a
+
+891
+00:37:51,810 --> 00:37:55,050
+bias they're the ones that are telling
+
+892
+00:37:53,520 --> 00:37:56,730
+you that because they don't know how to
+
+893
+00:37:55,050 --> 00:37:59,040
+do it I've given many examples on how
+
+894
+00:37:56,730 --> 00:38:00,450
+you can arrive at a daily bias and
+
+895
+00:37:59,040 --> 00:38:01,620
+you're not gonna get a daily bias that's
+
+896
+00:38:00,450 --> 00:38:05,010
+accurate every single day so don't let
+
+897
+00:38:01,620 --> 00:38:06,870
+me paint that picture for you but I can
+
+898
+00:38:05,010 --> 00:38:09,750
+be in the upper 90s in terms of my
+
+899
+00:38:06,870 --> 00:38:12,630
+probabilities and directional bias if
+
+900
+00:38:09,750 --> 00:38:15,270
+you can get just 65 to 70 percent
+
+901
+00:38:12,630 --> 00:38:16,800
+accuracy with or with your bias and then
+
+902
+00:38:15,270 --> 00:38:19,110
+wait for conditions like I'm showing you
+
+903
+00:38:16,800 --> 00:38:23,040
+here adding time of day
+
+904
+00:38:19,110 --> 00:38:25,950
+kill zones daily bias focusing was the
+
+905
+00:38:23,040 --> 00:38:29,520
+Asian range we've already looked at
+
+906
+00:38:25,950 --> 00:38:32,100
+power three it builds the entire model
+
+907
+00:38:29,520 --> 00:38:33,810
+for the daily range and you are not
+
+908
+00:38:32,100 --> 00:38:35,130
+surprised when certain things happen in
+
+909
+00:38:33,810 --> 00:38:38,430
+fact you're anticipating them before
+
+910
+00:38:35,130 --> 00:38:41,700
+they happen and by seeing day after day
+
+911
+00:38:38,430 --> 00:38:44,700
+after day of doing this you become much
+
+912
+00:38:41,700 --> 00:38:47,370
+better at well interpreting price action
+
+913
+00:38:44,700 --> 00:38:49,170
+and forecasting which is a skill set
+
+914
+00:38:47,370 --> 00:38:51,510
+that you cannot learn from reading books
+
+915
+00:38:49,170 --> 00:38:53,790
+or watching my videos you have to spend
+
+916
+00:38:51,510 --> 00:38:56,250
+time in the charts and if you do that I
+
+917
+00:38:53,790 --> 00:38:58,080
+promise you you will glean more
+
+918
+00:38:56,250 --> 00:39:03,120
+that than anything else that you would
+
+919
+00:38:58,080 --> 00:39:05,250
+ever study I hope you enjoyed this
+
+920
+00:39:03,120 --> 00:39:08,720
+presentation and if you did you can find
+
+921
+00:39:05,250 --> 00:39:08,720
+more at the inner circle trader.com
+
