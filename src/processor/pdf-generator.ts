@@ -4,11 +4,18 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import ffmpeg from 'fluent-ffmpeg';
 import SrtParser from 'srt-parser-2';
+import dotenv from 'dotenv';
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-// Initialize Gemini
-const genAI = new GoogleGenerativeAI("AIzaSyA4rZI6_V854A_GTGG1k-wSInjXGPOjQ04"); 
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" }); 
+dotenv.config();
+
+const apiKey = process.env.GEMINI_API_KEY || '';
+if (!apiKey) {
+    console.error('❌ GEMINI_API_KEY is not set. Please add it to your .env file or environment variables.');
+}
+
+const genAI = new GoogleGenerativeAI(apiKey);
+const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 const srtParser = new SrtParser();
 const __filename = fileURLToPath(import.meta.url);
@@ -59,13 +66,31 @@ export class ICTPdfGenerator {
 
         try {
             const result = await model.generateContent(prompt);
-            const responseText = result.response.text();
+            const response = await result.response;
+            const responseText = await response.text();
+
             const start = responseText.indexOf('[');
             const end = responseText.lastIndexOf(']') + 1;
-            return JSON.parse(responseText.substring(start, end));
+            if (start < 0 || end <= start) {
+                throw new Error(`AI response did not contain a valid JSON array. Response: ${responseText.slice(0, 1000)}`);
+            }
+
+            const rawJson = responseText.substring(start, end);
+            const parsed = JSON.parse(rawJson);
+            if (!Array.isArray(parsed)) {
+                throw new Error(`Parsed AI response is not an array. Parsed: ${JSON.stringify(parsed).slice(0, 1000)}`);
+            }
+
+            return parsed;
         } catch (error) {
-            console.error("⚠️ AI Parsing Error, using fallback extraction.");
-            return [];
+            console.error("⚠️ AI Parsing Error:", error);
+            console.error("🚨 Vui lòng kiểm tra lại GEMINI_API_KEY và quyền truy cập API.");
+
+            return [{
+                time: "00:00:00",
+                title: `Fallback section for ${videoTitle}`,
+                content: fullText.substring(0, 1500).trim() || "No transcript available."
+            }];
         }
     }
 
