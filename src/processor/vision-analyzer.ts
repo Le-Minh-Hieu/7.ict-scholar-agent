@@ -269,6 +269,119 @@ Output ONLY the narrator text starting from "### 1." — no preamble, no tags.`;
     }
 
     /**
+     * Multi-TF analysis from multiple TradingView screenshots (one per TF).
+     * All images are sent to Gemini in a SINGLE request so it can compare
+     * timeframes directly — then narrator is generated in a second call.
+     *
+     * @param captures   Array of { tf, imagePath } in HTF→LTF order
+     * @param internalKnowledgeContext   PDF chunks from RAG (optional)
+     */
+    async analyzeMultiTFScreenshots(
+        captures: { tf: string; imagePath: string }[],
+        internalKnowledgeContext: string = '',
+    ): Promise<ICTChartAnalysis> {
+        if (captures.length === 0) throw new Error('No chart images provided.');
+
+        // Build one image part per TF
+        const imageParts = captures.map(c => {
+            const mime = c.imagePath.toLowerCase().endsWith('.png') ? 'image/png' : 'image/jpeg';
+            return this.fileToGenerativePart(c.imagePath, mime);
+        });
+
+        // Label each image so Gemini knows which TF it is
+        const tfLabels = captures.map((c, i) => `Image ${i + 1}: ${c.tf.toUpperCase()} chart`).join('\n');
+
+        const prompt = `You are a price action analyst following the ICT (Inner Circle Trader) methodology.
+You have been given ${captures.length} TradingView chart screenshots in TOP-DOWN order:
+${tfLabels}
+
+You MUST reason like a structured academic: every ICT concept requires evidence cited from the PDF REFERENCE LIBRARY below.
+
+━━━━━━━━━━━━━━━━━━ ICT REFERENCE LIBRARY (PDF CHUNKS BY CATEGORY) ━━━━━━━━━━━━━━━━━━
+${internalKnowledgeContext || '(unavailable — describe price action in plain terms only, no ICT terminology)'}
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CITATION RULES (strictly enforced):
+1. Every ICT term MUST be followed by: [CATEGORY: X | REF: filename | chunk N]
+2. If no chunk covers a term, use plain price-action language instead.
+3. Directional bias must come from what you SEE in the chart images.
+4. Do NOT invent price levels — read them from the chart y-axis.
+
+TASK — Perform top-down ICT analysis across all timeframes and output exactly TWO tagged sections:
+
+<ANALYSIS_JSON>
+{
+  "htfBias": "bullish" | "bearish" | "ranging" | "unknown",
+  "marketStructure": {
+    "status": "overall structure across TFs — cite [CATEGORY: HTF_BIAS_MARKET_STRUCTURE | REF: ... | chunk N]",
+    "lastMSS": "timeframe + type + cite [CATEGORY: EQUAL_HIGHS_LOWS_STRUCTURE_SHIFT | REF: ... | chunk N]",
+    "internalStructure": "internal range character"
+  },
+  "keyLevels": [
+    {
+      "type": "FVG|OrderBlock|Liquidity|IFVG|Breaker|Mitigation|EQH|EQL|PDHL",
+      "zone": "price zone visible in charts",
+      "significance": "high|medium|low",
+      "note": "reason + cite [CATEGORY: PD_ARRAYS | REF: ... | chunk N]"
+    }
+  ],
+  "drawOnLiquidity": "target + cite [CATEGORY: DRAW_ON_LIQUIDITY | REF: ... | chunk N]",
+  "killzoneAlignment": "session + cite [CATEGORY: KILLZONES_TIME | REF: ... | chunk N]",
+  "setup": {
+    "bias": "long|short|no_trade",
+    "confidence": "high|medium|low",
+    "entryZone": "price level from LTF chart",
+    "stopLoss": "price level + rule + cite [CATEGORY: RISK_MANAGEMENT | REF: ... | chunk N]",
+    "target": "price level + cite [CATEGORY: DRAW_ON_LIQUIDITY | REF: ... | chunk N]",
+    "rrRatio": "calculated R:R",
+    "reason": "confluence — each point cited"
+  },
+  "drawings": [
+    {
+      "tool": "horizontal_line|rectangle|trendline|arrow|label",
+      "label": "name",
+      "color": "#hex",
+      "description": "placement on chart",
+      "priceLevel": null,
+      "priceZone": null,
+      "fromBar": null,
+      "toBar": null
+    }
+  ],
+  "warnings": ["warning with citation if applicable"],
+  "rawSummary": "3-5 sentence summary citing every ICT term used"
+}
+</ANALYSIS_JSON>
+
+<NARRATOR>
+(leave blank — narrator will be generated in a second call)
+</NARRATOR>`;
+
+        try {
+            const result   = await this.model.generateContent([prompt, ...imageParts]);
+            const raw      = (await result.response.text()).trim();
+
+            const jsonMatch = raw.match(/<ANALYSIS_JSON>([\s\S]*?)<\/ANALYSIS_JSON>/);
+            if (!jsonMatch) throw new Error(`No <ANALYSIS_JSON> block found. Preview: ${raw.slice(0, 400)}`);
+
+            const analysis = JSON.parse(jsonMatch[1].trim()) as ICTChartAnalysis;
+
+            // Second call: text-only narrator (no image tokens competing for output budget)
+            const tfSummary = captures.map(c => `${c.tf.toUpperCase()} chart provided as screenshot`).join(' | ');
+            analysis.narratorScript = await this.generateNarrator(
+                analysis,
+                tfSummary,
+                internalKnowledgeContext,
+            );
+
+            return analysis;
+        } catch (error) {
+            console.error('[Vision] Multi-TF screenshot analysis error:', error);
+            throw error;
+        }
+    }
+
+    /**
      * Full ICT chart analysis from a screenshot.
      * Returns structured analysis with drawing instructions and a trading decision.
      */

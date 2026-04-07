@@ -78,6 +78,8 @@ async function main() {
         console.log('Dùng một trong các lệnh sau:');
         console.log('- npm run stateful:build');
         console.log('- npm run stateful:ask   -- "<câu hỏi>"');
+        console.log('- npm run stateful:screenshot -- --symbol EURUSD [--stack intraday] [--tfs 4h,1h,15m]  (chụp ảnh thôi, chưa AI)');
+        console.log('- npm run stateful:capture   -- --symbol EURUSD [--stack intraday] [--tfs 4h,1h,15m] [--mode topdown]  (chụp + phân tích ICT)');
         console.log('- npm run stateful:chart -- --symbol <sym> [--stack swing|intraday|...] [--mode topdown|bottomup]');
         console.log('- npm run stateful:outcome -- --list [--symbol EURUSD]');
         console.log('- npm run stateful:outcome -- --stats [--symbol EURUSD]');
@@ -108,6 +110,76 @@ async function main() {
         console.log(result.answer);
         console.log('\n=== SOURCES ===\n');
         result.sources.forEach(source => console.log(`- ${source}`));
+        return;
+    }
+
+    if (command === 'capture') {
+        const symbol         = getArg('--symbol') ?? 'EURUSD';
+        const stack          = getArg('--stack') as keyof typeof MTF_STACKS | undefined;
+        const tfRaw          = getArg('--tfs') ?? getArg('--timeframes');
+        const mode           = (getArg('--mode') ?? 'topdown') as 'topdown' | 'bottomup';
+        const sessionId      = getArg('--session') ?? process.env.SESSION_ID ?? 'default';
+        const screenshotOnly = process.argv.includes('--screenshot-only');
+
+        const timeframes = tfRaw
+            ? tfRaw.split(',').map(s => s.trim())
+            : MTF_STACKS[stack ?? 'intraday'];
+
+        const sessionDir = makeSessionDir();
+        console.log(`📁 Session dir  : ${sessionDir}`);
+        console.log(`📸 Symbol       : ${symbol}`);
+        console.log(`📊 Timeframes   : ${timeframes.join(' → ')}`);
+        if (!screenshotOnly) console.log(`🔄 Mode         : ${mode}`);
+        console.log('');
+
+        // ── Screenshot-only mode: capture & stop, no AI ───────────────────
+        if (screenshotOnly) {
+            const { TradingViewCapturer } = await import('./ingestion/tradingview-capturer.js');
+            const capturer  = new TradingViewCapturer(sessionDir);
+            const captures  = await capturer.captureMultiTF(symbol, timeframes);
+            console.log(`\n✅ ${captures.length} screenshot(s) saved:`);
+            for (const c of captures) {
+                console.log(`   [${c.tf.padEnd(4)}] ${c.imagePath}`);
+            }
+            console.log('\nChạy lại không có --screenshot-only để phân tích ICT.');
+            return;
+        }
+
+        // ── Full analysis mode ─────────────────────────────────────────────
+        const service = new ChartAnalysisService();
+        const result  = await service.analyzeFromScreenshots({
+            symbol,
+            timeframes,
+            sessionDir,
+            mode,
+            sessionId,
+        });
+
+        console.log('\n' + result.drawingGuide);
+        console.log('\n' + result.decision);
+
+        const rp = saveReport(result);
+        console.log(`📄 Report (.txt) → ${rp}`);
+
+        try {
+            const pdfPath = await generatePdfReport(result);
+            console.log(`📑 Report (.pdf) → ${pdfPath}`);
+
+            // Delete PNGs after embedding in PDF
+            const pngsToDelete = [
+                result.imagePath,
+                result.annotatedImagePath,
+                ...Object.values(result.timeframeCharts ?? {}),
+            ].filter((p): p is string => !!p && fs.existsSync(p));
+            for (const png of pngsToDelete) {
+                try { fs.unlinkSync(png); } catch { /* ignore */ }
+            }
+            if (pngsToDelete.length > 0) {
+                console.log(`🗑️  Đã xóa ${pngsToDelete.length} PNG (đã embed vào PDF)`);
+            }
+        } catch (e: any) {
+            console.warn(`⚠️  PDF generation failed: ${e.message}`);
+        }
         return;
     }
 

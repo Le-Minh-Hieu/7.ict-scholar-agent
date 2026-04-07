@@ -4,6 +4,7 @@ import { GoogleGenerativeAI } from '@google/generative-ai';
 import { VisionAnalyzer, ICTChartAnalysis, DrawingInstruction } from '../processor/vision-analyzer';
 import { RawDataParser } from '../ingestion/raw-data-parser';
 import { MarketDataFetcher, MTF_STACKS, MultiTFResult } from '../ingestion/market-data-fetcher';
+import { TradingViewCapturer, CapturedChart } from '../ingestion/tradingview-capturer';
 import { ScholarAgent } from './scholar-agent';
 import { StorageService } from './storage-service';
 import { OutcomeService } from './outcome-service';
@@ -41,6 +42,144 @@ export class ChartAnalysisService {
         this.storage = new StorageService(statefulDir);
         const genAI  = new GoogleGenerativeAI(process.env.GEMINI_API_KEY ?? '');
         this.gemini  = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    }
+
+    // ═══════════════════════════════════════════════════════════════════════════
+    // NEW: TradingView screenshot pipeline (no raw data)
+    // ═══════════════════════════════════════════════════════════════════════════
+
+    /**
+     * Capture TradingView multi-TF screenshots then run full ICT analysis.
+     * Replaces raw-data fetching entirely — uses only visual chart + PDF knowledge.
+     */
+    async analyzeFromScreenshots(params: {
+        symbol:     string;
+        timeframes: string[];
+        sessionDir: string;
+        mode?:      'topdown' | 'bottomup';
+        sessionId?: string;
+        topK?:      number;
+    }): Promise<ChartDecisionResult> {
+        const { symbol, timeframes, sessionDir, mode = 'topdown', sessionId = 'default', topK = 6 } = params;
+
+        // ── 1. Capture each TF from TradingView ──────────────────────────────
+        Logger.info(`[Capture] Starting TradingView multi-TF capture: ${symbol} | ${timeframes.join(' → ')}`);
+        const capturer  = new TradingViewCapturer(sessionDir);
+        const captures: CapturedChart[] = await capturer.captureMultiTF(symbol, timeframes);
+
+        if (captures.length === 0) throw new Error('No screenshots captured from TradingView.');
+        Logger.info(`[Capture] ${captures.length} screenshots ready`);
+
+        // Use the LTF (last) image as the primary imagePath for reports
+        const primaryCapture = captures[captures.length - 1];
+
+        // ── 2. RAG — PDF knowledge (same as MTF pipeline, no raw data needed) ──
+        Logger.info('Truy xuất PDF knowledge base...');
+        let internalContext = '';
+        try {
+            const seedQuery = `ICT top-down analysis ${symbol} market structure FVG order block liquidity`;
+            let dynamicQueries: string[] = [];
+            try {
+                dynamicQueries = await this.extractDynamicQueries(
+                    captures.map(c => `${c.tf} chart screenshot`).join(' | '),
+                );
+            } catch { /* non-fatal */ }
+            if (dynamicQueries.length === 0) dynamicQueries = [seedQuery];
+
+            const globalUsedSources = new Set<string>();
+            const dynamicChunkMap   = new Map<string, any>();
+            for (const q of dynamicQueries) {
+                const chunks = await this.scholar.retrieveDiverseChunks(q, 5, 1, 50, globalUsedSources);
+                for (const c of chunks) {
+                    const key = `${c.source}::${c.chunkIndex}`;
+                    if (!dynamicChunkMap.has(key)) { dynamicChunkMap.set(key, c); globalUsedSources.add(c.source); }
+                }
+            }
+            const dynamicBlock = dynamicChunkMap.size > 0
+                ? '### DYNAMIC\n' + [...dynamicChunkMap.values()].slice(0, 12)
+                    .map((c: any) => `  [DYNAMIC | ${c.source} | chunk ${c.chunkIndex}]\n  ${c.text.replace(/\n/g, '\n  ')}`)
+                    .join('\n\n')
+                : '';
+
+            const TAXONOMY: Record<string, string> = {
+                'HTF_BIAS_MARKET_STRUCTURE':      'higher timeframe bias bullish bearish market structure',
+                'DRAW_ON_LIQUIDITY':              'draw on liquidity buy side sell side old high old low',
+                'PD_ARRAYS':                     'fair value gap FVG order block OB breaker IFVG premium discount',
+                'EQUAL_HIGHS_LOWS_STRUCTURE_SHIFT': 'equal highs equal lows EQH EQL CHoCH BOS MSS',
+                'KILLZONES_TIME':                'killzone London New York silver bullet session time',
+                'ENTRY_MODELS':                  'optimal trade entry OTE unicorn model 2022',
+                'RISK_MANAGEMENT':               'stop loss target profit risk reward position sizing',
+                'SMT_DIVERGENCE':                'SMT smart money divergence correlated pair DXY',
+                'POWER_OF_3_AMD':                'power of three accumulation manipulation distribution AMD',
+                'DISPLACEMENT_IMBALANCE':        'displacement propulsive candle imbalance SIBI BISI void',
+            };
+
+            const categoryChunks: Record<string, any[]> = {};
+            for (const [category, query] of Object.entries(TAXONOMY)) {
+                const chunks = await this.scholar.retrieveDiverseChunks(query, 5, 1, 60, globalUsedSources);
+                categoryChunks[category] = sortByCurriculum(chunks);
+                for (const c of chunks) globalUsedSources.add(c.source);
+            }
+
+            const taxonomyBlock = Object.entries(categoryChunks)
+                .map(([cat, chunks]) => {
+                    if (!chunks.length) return '';
+                    const refs = chunks.map((c: any) =>
+                        `  [REF: ${c.source} | chunk ${c.chunkIndex} | ${getCurriculumLabel(c.source)} | pos ${getCurriculumOrder(c.source)}]\n  ${c.text.replace(/\n/g, '\n  ')}`
+                    ).join('\n\n');
+                    return `### CATEGORY: ${cat}\n${refs}`;
+                })
+                .filter(Boolean).join('\n\n' + '─'.repeat(60) + '\n\n');
+
+            const episodic = this.outcome.buildHistoryContext(symbol, dynamicQueries);
+            internalContext = [dynamicBlock, episodic, taxonomyBlock].filter(Boolean).join('\n\n' + '═'.repeat(60) + '\n\n');
+
+            const totalChunks = Object.values(categoryChunks).reduce((s: number, a: any[]) => s + a.length, 0);
+            Logger.info(`Loaded ${totalChunks} PDF chunks | ${globalUsedSources.size} unique sources`);
+        } catch {
+            Logger.warn('Knowledge index unavailable. Continuing with vision only.');
+        }
+
+        // ── 3. Vision analysis — all screenshots sent in one Gemini call ──────
+        Logger.info('Đang phân tích screenshots qua Gemini Vision (multi-TF)...');
+        const analysis = await this.vision.analyzeMultiTFScreenshots(captures, internalContext);
+
+        // ── 4. Format output ──────────────────────────────────────────────────
+        const drawingGuide = this.formatDrawingGuide(analysis.drawings);
+        const tfsLabel     = (mode === 'topdown' ? timeframes : [...timeframes].reverse()).join(' → ');
+        const decision     = [
+            `=== TRADINGVIEW SCREENSHOT ANALYSIS — ${mode.toUpperCase()} ===`,
+            `Symbol     : ${symbol}`,
+            `Timeframes : ${tfsLabel}`,
+            `Screenshots: ${captures.length}`,
+            '',
+            this.formatDecision(analysis),
+        ].join('\n');
+
+        // Map TF → imagePath for PDF report
+        const timeframeCharts: Record<string, string> = {};
+        for (const c of captures) timeframeCharts[c.tf] = c.imagePath;
+
+        const result: ChartDecisionResult = {
+            timestamp:      new Date().toISOString(),
+            imagePath:      primaryCapture.imagePath,
+            symbol,
+            timeframe:      tfsLabel,
+            timeframeCharts,
+            analysis,
+            drawingGuide,
+            decision,
+            sessionId,
+        };
+
+        const filename = `chart-analysis/tv_${Date.now()}.json`;
+        this.storage.saveJson(filename, result);
+        Logger.info(`Đã lưu kết quả: data/stateful/${filename}`);
+
+        const tc = this.outcome.recordCase(result, filename);
+        Logger.info(`📋 Case recorded: ID ${tc.id} | ${tc.symbol} ${tc.bias.toUpperCase()} | PENDING`);
+
+        return result;
     }
 
     /**
